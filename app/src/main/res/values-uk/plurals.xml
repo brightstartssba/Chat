@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="one">Про %1$s</item>
+        <item quantity="few">Про %1$s</item>
+        <item quantity="many">Про %1$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="one">%1$d нове оновлення доступне</item>
+        <item quantity="few">%1$d нових оновлення доступно</item>
+        <item quantity="many">%1$d нових оновлень доступно</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0002">
+        <item quantity="one">Подивитись %1$d відповідь</item>
+        <item quantity="few">Подивитись %1$d відповіді</item>
+        <item quantity="many">Подивитись усі %1$d відповідей</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0004">
+        <item quantity="one">Усього: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> додаток, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b></item>
+        <item quantity="few">Усього: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> додатки, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b></item>
+        <item quantity="many">Усього: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> додатків, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b></item>
+    </plurals>
+</resources>

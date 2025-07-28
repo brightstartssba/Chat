@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906de" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090063" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e2" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f040269="APKTOOL_DUPLICATE_id_0x7f0902e4" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f090338|APKTOOL_DUPLICATE_id_0x7f09019c|APKTOOL_DUPLICATE_id_0x7f090362" app:APKTOOL_DUPLICATE_attr_0x7f040362="@style/APKTOOL_DUPLICATE_style_0x7f12000b" />
+        <net.lucode.hackware.magicindicator.MagicIndicator android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a5e" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1">
+        <androidx.core.widget.NestedScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <androidx.viewpager.widget.ViewPager android:id="@id/APKTOOL_DUPLICATE_id_0x7f09023e" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1" />
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900c2" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c007c" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

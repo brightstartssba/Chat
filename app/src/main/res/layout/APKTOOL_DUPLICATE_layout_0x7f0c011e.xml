@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040189="0.0dip">
+        <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e2" android:background="?APKTOOL_DUPLICATE_attr_0x7f04010a" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f04012b="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f04012c="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f09019c|APKTOOL_DUPLICATE_id_0x7f090362" app:APKTOOL_DUPLICATE_attr_0x7f040362="@style/APKTOOL_DUPLICATE_style_0x7f12000b">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.apkpure.aegon.widgets.textview.RoundLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090db2" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" app:APKTOOL_DUPLICATE_attr_0x7f040396="@color/APKTOOL_DUPLICATE_color_0x7f060341" app:APKTOOL_DUPLICATE_attr_0x7f04039d="true">
+                    <EditText android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a6" android:textColorHint="?APKTOOL_DUPLICATE_attr_0x7f0404a4" android:gravity="start|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090db1" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUPLICATE_string_0x7f11009e" android:maxLines="1" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="30" android:inputType="textFilter|textNoSuggestions" android:imeOptions="actionNext" android:textAlignment="viewStart" />
+                </com.apkpure.aegon.widgets.textview.RoundLinearLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906d6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1">
+        <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906c4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110448" />
+            <com.apkpure.aegon.widgets.flowlayout.TagFlowLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906c3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d41" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

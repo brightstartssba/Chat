@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="268.0dip" android:layout_height="148.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="252.0dip" android:layout_height="132.0dip">
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906c6" android:layout_width="252.0dip" android:layout_height="84.0dip" android:scaleType="fitXY" app:APKTOOL_DUPLICATE_attr_0x7f040278="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f04028c="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f040290="APKTOOL_DUPLICATE_id_0x7f0902d7" />
+        <LinearLayout android:gravity="center" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08051c" android:layout_width="0.0dip" android:layout_height="48.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040278="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f04028c="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f04028f="@id/APKTOOL_DUPLICATE_id_0x7f0906c6">
+            <TextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906c7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="16.0dip" android:text="Play 500+ Mini-Games without installing!" android:lines="2" android:includeFontPadding="false" android:textAlignment="textStart" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

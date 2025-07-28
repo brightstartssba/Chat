@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.apkpure.aegon" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.GET_INTENT_SENDER_INTENT"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.NOTIFICATION_SEND"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <permission android:name="com.apkpure.aegon.permission.PROCESS_PUSH_MSG" android:protectionLevel="signature"/>
+    <permission android:name="com.apkpure.aegon.permission.PUSH_PROVIDER" android:protectionLevel="signature"/>
+    <permission android:name="com.apkpure.aegon.permission.PUSH_WRITE_PROVIDER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.apkpure.aegon.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="com.apkpure.aegon.permission.PUSH_PROVIDER"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <permission android:name="com.tencent.assistant.permission.A_PERMISSION" android:protectionLevel="normal"/>
+    <uses-permission android:name="com.tencent.assistant.permission.A_PERMISSION"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <instrumentation android:name="com.apkpure.keepalive.QDInstrumentation" android:targetPackage="com.apkpure.aegon" android:targetProcesses="com.apkpure.aegon"/>
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <provider android:authorities="com.android.calendar"/>
+        <package android:name="com.tencent.android.qqdownloader"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.ACCESS_ORIENTATION"/>
+    <uses-permission android:name="com.apkpure.aegon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:minSdkVersion="34" android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <permission android:name="com.apkpure.aegon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <permission android:name="com.apkpure.aegon.permission.TDOS_DIAGNOSE_BROADCAST" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.apkpure.aegon.permission.TDOS_DIAGNOSE_BROADCAST"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:largeHeap="true" android:name="com.apkpure.aegon.application.AegonApplication" android:networkSecurityConfig="@xml/APKTOOL_DUPLICATE_xml_0x7f140007" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120009" android:usesCleartextTraffic="true">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.ads.apkpure.MarketAdActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.san.APP_KEY" android:value="7770d15c-d4d1-4d15-b9f9-222447d5f296"/>
+        <meta-data android:name="APPKEY_DENGTA" android:value="0AND02Z8WN41BWCA"/>
+        <meta-data android:name="PURE_SHELL_VERSION" android:value="2"/>
+        <meta-data android:name="ORI_BUILD_NO" android:value="663"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.apkpure.aegon.main.activity.SplashActivity" android:screenOrientation="portrait" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000d">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.notch_support" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="apkpure"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="downloadapp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="*/*"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.xapk"/>
+                <data android:pathPattern=".*\\..*\\.xapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\.xapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.xapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.xapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.xapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.xapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.xapk"/>
+                <data android:pathPattern=".*\\.apkm"/>
+                <data android:pathPattern=".*\\..*\\.apkm"/>
+                <data android:pathPattern=".*\\..*\\..*\\.apkm"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.apkm"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apkm"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apkm"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apkm"/>
+                <data android:pathPattern=".*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\.sapk"/>
+                <data android:pathPattern=".*\\..*\\.sapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\.sapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.sapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.sapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.sapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.sapk"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.sapk"/>
+                <data android:pathPattern=".*\\.xapk.*"/>
+                <data android:pathPattern=".*\\..*\\.xapk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.xapk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.xapk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.xapk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.xapk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.xapk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.xapk.*"/>
+                <data android:pathPattern=".*\\.apk"/>
+                <data android:pathPattern=".*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\.APK"/>
+                <data android:pathPattern=".*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.. *\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.APK.*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="application/xapk"/>
+                <data android:mimeType="application/xapk.1"/>
+                <data android:mimeType="application/xapk.1.1"/>
+                <data android:mimeType="application/xapk.1.1.1"/>
+                <data android:mimeType="application/xapk.1.1.1.1"/>
+                <data android:mimeType="application/xapk.1.1.1.1.1"/>
+                <data android:host="*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="application/xapk-package-archive"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="details" android:scheme="market"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="apkpure.com"/>
+                <data android:host="apkpure.net"/>
+                <data android:host="m.apkpure.com"/>
+                <data android:host="m.apkpure.net"/>
+                <data android:host="m.apkpure.org"/>
+                <data android:pathPattern="/..*/..*/download"/>
+                <data android:pathPattern="/..*/..*/..*/download"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/*"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="apps.wandoujia.com" android:scheme="http"/>
+                <data android:host="apps.wandoujia.cn" android:scheme="http"/>
+                <data android:pathPattern=".*download"/>
+                <data android:pathPattern=".*\\..*download"/>
+                <data android:pathPattern=".*\\..*\\..*download"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*download"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*download"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*download"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*download"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*download"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="*" android:scheme="http"/>
+                <data android:host="*" android:scheme="https"/>
+                <data android:pathPattern=".*\\.apk"/>
+                <data android:pathPattern=".*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apk.*"/>
+                <data android:pathPattern=".*\\.APK"/>
+                <data android:pathPattern=".*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.APK.*"/>
+                <data android:pathPattern=".*\\.mp3"/>
+                <data android:pathPattern=".*\\.mp3.*"/>
+                <data android:pathPattern=".*\\..*\\.mp3.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.mp3.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.mp3.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.mp3.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.mp3.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.mp3.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mp3.*"/>
+                <data android:pathPattern=".*\\.doc"/>
+                <data android:pathPattern=".*\\.doc.*"/>
+                <data android:pathPattern=".*\\..*\\.doc.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.doc.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.doc.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.doc.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.doc.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.doc.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.doc.*"/>
+                <data android:pathPattern=".*\\.docx"/>
+                <data android:pathPattern=".*\\.docx.*"/>
+                <data android:pathPattern=".*\\..*\\.docx.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.docx.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.docx.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.docx.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.docx.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.docx.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.docx.*"/>
+                <data android:pathPattern=".*\\.txt"/>
+                <data android:pathPattern=".*\\.txt.*"/>
+                <data android:pathPattern=".*\\..*\\.txt.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.txt.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.txt.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.txt.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.txt.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.txt.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.txt.*"/>
+                <data android:pathPattern=".*\\.zip"/>
+                <data android:pathPattern=".*\\.zip.*"/>
+                <data android:pathPattern=".*\\..*\\.zip.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.zip.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.zip.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.zip.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.zip.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.zip.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.zip.*"/>
+                <data android:pathPattern=".*\\.rar"/>
+                <data android:pathPattern=".*\\.rar.*"/>
+                <data android:pathPattern=".*\\..*\\.rar.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\.rar.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.rar.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.rar.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.rar.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.rar.*"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.rar.*"/>
+                <data android:pathPattern=".*\\.ape"/>
+                <data android:pathPattern=".*\\.avi"/>
+                <data android:pathPattern=".*\\.wmv"/>
+                <data android:pathPattern=".*\\.asf"/>
+                <data android:pathPattern=".*\\.mpg"/>
+                <data android:pathPattern=".*\\.3gpp"/>
+                <data android:pathPattern=".*\\.rm"/>
+                <data android:pathPattern=".*\\.oga"/>
+                <data android:pathPattern=".*\\.pps"/>
+                <data android:pathPattern=".*\\.ppx"/>
+                <data android:pathPattern=".*\\.torrent"/>
+                <data android:pathPattern=".*\\.m4a"/>
+                <data android:pathPattern=".*\\.mid"/>
+                <data android:pathPattern=".*\\.aac"/>
+                <data android:pathPattern=".*\\.amr"/>
+                <data android:pathPattern=".*\\.wma"/>
+                <data android:pathPattern=".*\\.mpga"/>
+                <data android:pathPattern=".*\\.flac"/>
+                <data android:pathPattern=".*\\.ogg"/>
+                <data android:pathPattern=".*\\.wav"/>
+                <data android:pathPattern=".*\\.3gp"/>
+                <data android:pathPattern=".*\\.mp4"/>
+                <data android:pathPattern=".*\\.rtsp"/>
+                <data android:pathPattern=".*\\.rtmp"/>
+                <data android:pathPattern=".*\\.flv"/>
+                <data android:pathPattern=".*\\.avi"/>
+                <data android:pathPattern=".*\\.3gpp"/>
+                <data android:pathPattern=".*\\.webm"/>
+                <data android:pathPattern=".*\\.ts"/>
+                <data android:pathPattern=".*\\.ogv"/>
+                <data android:pathPattern=".*\\.m3u8"/>
+                <data android:pathPattern=".*\\.asf"/>
+                <data android:pathPattern=".*\\.wmv"/>
+                <data android:pathPattern=".*\\.rmvb"/>
+                <data android:pathPattern=".*\\.rm"/>
+                <data android:pathPattern=".*\\.f4v"/>
+                <data android:pathPattern=".*\\.dat"/>
+                <data android:pathPattern=".*\\.mov"/>
+                <data android:pathPattern=".*\\.mpg"/>
+                <data android:pathPattern=".*\\.mkv"/>
+                <data android:pathPattern=".*\\.mpeg"/>
+                <data android:pathPattern=".*\\.xvid"/>
+                <data android:pathPattern=".*\\.dvd"/>
+                <data android:pathPattern=".*\\.vcd"/>
+                <data android:pathPattern=".*\\.vob"/>
+                <data android:pathPattern=".*\\.divx"/>
+                <data android:pathPattern=".*\\.jpg"/>
+                <data android:pathPattern=".*\\.gif"/>
+                <data android:pathPattern=".*\\.png"/>
+                <data android:pathPattern=".*\\.jpeg"/>
+                <data android:pathPattern=".*\\.bmp"/>
+                <data android:pathPattern=".*\\.webp"/>
+                <data android:pathPattern=".*\\.ppt"/>
+                <data android:pathPattern=".*\\.pptx"/>
+                <data android:pathPattern=".*\\.xls"/>
+                <data android:pathPattern=".*\\.xlsx"/>
+                <data android:pathPattern=".*\\.pdf"/>
+                <data android:pathPattern=".*\\.chm"/>
+                <data android:pathPattern=".*\\.log"/>
+                <data android:pathPattern=".*\\.bat"/>
+                <data android:pathPattern=".*\\.lrc"/>
+                <data android:pathPattern=".*\\.ini"/>
+                <data android:pathPattern=".*\\.rar"/>
+                <data android:pathPattern=".*\\.7z"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.CmsTabActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.main.activity.FrameActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.SearchActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:launchMode="singleTop" android:name="com.apkpure.aegon.main.activity.AppManagerActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.main.activity.AppMoreActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.SettingsActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.post.activity.SubmitChildCommentActivity" android:screenOrientation="unspecified" android:supportsPictureInPicture="true" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12008e" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.app.activity.ManagerActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="" android:launchMode="singleTask" android:name="com.apkpure.aegon.main.activity.MainTabActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.MessageActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.components.gamebooster.activity.BoostGameListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.CommonActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.FavouriteActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.MyCommentActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.TopSelectActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.app.activity.AppDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.v2.app.detail.AppDetailV2Activity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.v2.app.reviews.AppReviewsActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.app.activity.UserDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.UserFocusActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.TopicListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.app.activity.AppTagListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.app.activity.AddAppTagActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.app.activity.AddTagAgoActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.PreRegisterActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.aegon.app.activity.CommonSingleActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.facebook.CustomTabActivity" android:supportsPictureInPicture="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/APKTOOL_DUPLICATE_string_0x7f11025f"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.Login2Activity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.LoginActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.LoginEmailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.LoginReadyActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.LoginNowActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.yalantis.ucrop.UCropActivity" android:screenOrientation="portrait" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120209"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.app.activity.ApkListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.SpecialCommentActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.AtUserActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.SearchHashtagActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.UserInfoEditActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.person.activity.UserHomeActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.PictureBrowseActivity" android:screenOrientation="unspecified" android:supportsPictureInPicture="true" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12008e"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.CommentSecondActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.CommentThirdActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.HashtagDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.post.activity.SubmitCommentV2Activity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.CommentDraftActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.cms.activity.CommonWebViewActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.main.activity.ContainerFragmentActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.main.activity.CaptchaWebViewActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:name="com.apkpure.aegon.person.activity.InnerFeedBackActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:name="com.apkpure.aegon.person.activity.DeviceInfoActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.garbage.activity.GarbageCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:launchMode="singleTask" android:name="com.apkpure.components.xinstaller.XInstallerActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.oneopti.OneClickOptiActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.chat.ChatActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.main.activity.CommonFragmentActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.aegon.app.activity.OperationToolsActivity" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.aegon.person.activity.PreRegisterDebugActivity" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.apkpure.aegon.statistics.inspector.ReportInspectActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12008e"/>
+        <service android:exported="true" android:name="com.apkpure.keepalive.AlphaService"/>
+        <service android:exported="true" android:name="com.apkpure.keepalive.BetaService" android:process=":beta"/>
+        <service android:name="com.apkpure.aegon.services.UltraDownloadService"/>
+        <service android:name="com.apkpure.aegon.services.QDDownloadService"/>
+        <service android:name="com.apkpure.aegon.services.AppProtoBufUpdateService"/>
+        <service android:name="com.apkpure.aegon.services.AppWatcherService"/>
+        <receiver android:exported="true" android:name="com.apkpure.aegon.person.event.NotificationEvent" android:permission="">
+            <intent-filter>
+                <action android:name="notification_cancelled"/>
+                <action android:name="notification_clicked"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.apkpure.aegon.event.receiver.BatteryLevelReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.apkpure.aegon.services.PushFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.apkpure.aegon.services.UploadFileService"/>
+        <provider android:authorities="com.apkpure.aegon.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/APKTOOL_DUPLICATE_xml_0x7f140002"/>
+        </provider>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/APKTOOL_DUPLICATE_string_0x7f110256"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.tencent.qqlive.module.videoreport.scheme.SchemeRouterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="txdt0and02z8wn41bwca"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.minigames.GameDetailWebViewActivity" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <service android:name="com.tencent.shadow.raft.dynamic.host.MainPluginProcessService" android:process=""/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:launchMode="standard" android:name="com.apkpure.aegon.plugin.runtime.PluginDefaultProxyActivity" android:process="" android:screenOrientation="behind" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12014c"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:launchMode="singleInstance" android:name="com.apkpure.aegon.plugin.runtime.PluginSingleInstance1ProxyActivity" android:process="" android:screenOrientation="behind" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12014c"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.apkpure.aegon.plugin.runtime.PluginSingleTask1ProxyActivity" android:process="" android:screenOrientation="behind" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12014c"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:launchMode="singleInstance" android:name="com.apkpure.components.xinstaller.RestartActivity" android:process=":restart" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c7"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110030" android:name="com.apkpure.aegon.exploration.ExplorationActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.apkpure.aegon.app.activity.ExclusiveVideoActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <receiver android:exported="false" android:name="com.apkpure.aegon.services.notify.DownloadNotificationReceiver"/>
+        <receiver android:exported="false" android:name="com.apkpure.aegon.push.reserve.ReservePushReceiver"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:push" android:value="push:6.7.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:push:push" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.appid" android:value="appid=106420291"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:opendevice" android:value="opendevice:6.7.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:opendevice:push" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:6.6.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.huawei.hms.support.api.push.service.HmsMsgService">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.huawei.hms.support.api.push.TransActivity"/>
+        <service android:directBootAware="true" android:exported="true" android:name="com.apkpure.aegon.plugin.push.hw.HwHostDemoHmsMessageService">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-6510778225276763~5389326657"/>
+        <provider android:authorities="com.apkpure.assistant.syscomponent.ContactsProvider" android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent.ContactsProvider" android:syncable="true">
+            <meta-data android:name="android.content.ContactDirectory" android:value="true"/>
+        </provider>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent.MediaBrowserService">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.apkpure.assistant.syscomponent.AppInfoProvider" android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent.AppInfoProvider">
+            <intent-filter>
+                <action android:name="oppo.intent.action.QUERY_SDCARD_APP_INFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </provider>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent.MediaRouteProviderService2">
+            <intent-filter>
+                <action android:name="android.media.MediaRoute2ProviderService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent.MediaRouteProviderService">
+            <intent-filter>
+                <action android:name="android.media.MediaRouteProviderService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.apkpure.assistant.syscomponent2.OppoCycleService">
+            <intent-filter>
+                <action android:name="com.cleanmaster.action.sdk.CleanService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.apkpure.assistant.syscomponent2.SamsungCommandProvider" android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent2.SamsungCommandProvider">
+            <intent-filter>
+                <action android:name="com.samsung.android.sdk.command.COMMAND_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <provider android:authorities="com.apkpure.assistant.syscomponent2.VivoVoiceDemoProvider" android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent2.VivoVoiceDemoProvider" android:permission="com.vivo.permission.VOICE_INTERACT_PROVIDER">
+            <meta-data android:name="vivo.voice_interact_provider" android:resource="@xml/APKTOOL_DUPLICATE_xml_0x7f140010"/>
+            <intent-filter>
+                <action android:name="com.vivo.action.voice_interact_provider"/>
+            </intent-filter>
+        </provider>
+        <provider android:authorities="com.apkpure.assistant.syscomponent.DOCUMENTS" android:enabled="true" android:exported="true" android:grantUriPermissions="true" android:name="com.apkpure.assistant.syscomponent.DocumentsProvider" android:readPermission="android.permission.MANAGE_DOCUMENTS" android:writePermission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.apkpure.pop.QDNSActivity" android:taskAffinity="com.apkpure.aegon.ns" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <receiver android:enabled="false" android:exported="true" android:name="com.apkpure.assistant.syscomponent3.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="false" android:exported="true" android:name="com.apkpure.assistant.syscomponent3.MediaPlaybackService">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="false" android:exported="true" android:name="com.apkpure.assistant.syscomponent3.PrintService" android:permission="android.permission.BIND_PRINT_SERVICE">
+            <intent-filter>
+                <action android:name="android.printservice.PrintService"/>
+            </intent-filter>
+            <meta-data android:name="android.printservice" android:resource="@xml/APKTOOL_DUPLICATE_xml_0x7f140016"/>
+        </service>
+        <service android:enabled="false" android:exported="true" android:name="com.apkpure.assistant.syscomponent3.TTSService">
+            <intent-filter>
+                <action android:name="android.intent.action.TTS_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.ControlsService" android:permission="android.permission.BIND_CONTROLS">
+            <intent-filter>
+                <action android:name="android.service.controls.ControlsProviderService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.VanishingArtService">
+            <intent-filter>
+                <action android:name="com.qualcomm.qti.haven.telemetry.service.TelemetryJService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.McGradyPeService">
+            <intent-filter>
+                <action android:name="com.huawei.android.powerkit.PowerKitService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.RebootService">
+            <intent-filter>
+                <action android:name="android.intent.action.RESOLVE_INSTANT_APP_PACKAGE"/>
+                <action android:name="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.AppMarketService">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.watchmanager.INSTALL_APP"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.IUHostManagerService">
+            <intent-filter>
+                <action android:name="com.samsung.android.hostmanager.service.IUHostManager"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.ReservedService">
+            <intent-filter>
+                <action android:name="com.goolge.android.service.reserved"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.CloudSettingsService">
+            <intent-filter>
+                <action android:name="miui.action.CLOUD_BACKUP_SETTINGS"/>
+                <action android:name="miui.action.CLOUD_RESTORE_SETTINGS"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.GMSService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.ColorSafeService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.coloros.safecenter.ColorAppServicesManagerClient"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.ColorGestureService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.coloros.gesture.ColorAppServicesManagerClient"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.OpenUDIDService">
+            <intent-filter android:priority="1000">
+                <action android:name="org.OpenUDID.GETUDID"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.TgpaService">
+            <intent-filter>
+                <action android:name="com.ihoc.mgpa.ACTION_DATAFORWARD"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.ProfileStartService">
+            <intent-filter android:priority="999">
+                <action android:name="com.huawei.profile.service.ProfileService.START"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.KvStartService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.huawei.nb.service.KvService.START"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.SearchStartService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.huawei.nb.searchmanager.service.SearchService.START"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.DistributedDataStartService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.huawei.distributed.data.service.DistributedDataService.START"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.CodebookSyncService">
+            <intent-filter android:priority="-1000">
+                <action android:name="com.heytap.cloud.action.SYNC_MODULE"/>
+                <action android:name="oppo.action.CODEBOOK_SYNC_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="module" android:value="codebook"/>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.ColorMmsService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.android.mms.ColorAppServicesManagerClient"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.EidV2Service">
+            <intent-filter>
+                <action android:name="com.rongcard.eid.EidService_V2"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent4.EidService">
+            <intent-filter>
+                <action android:name="com.rongcard.eid.EidService"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.apkpure.android.TgpaFileProvider" android:enabled="true" android:grantUriPermissions="true" android:name="com.apkpure.assistant.syscomponent3.TgpaFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/APKTOOL_DUPLICATE_xml_0x7f140017"/>
+        </provider>
+        <provider android:authorities="com.apkpure.android.qqdownloader.MomoSdkSupportProvider" android:enabled="true" android:exported="true" android:name="com.apkpure.assistant.syscomponent3.MomoSdkSupportProvider" android:syncable="true">
+            <meta-data android:name="android.content.ContactDirectory" android:value="true"/>
+        </provider>
+        <activity android:excludeFromRecents="true" android:name="com.apkmatrix.components.clientupdatev2.UpdateDialogActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120444"/>
+        <service android:foregroundServiceType="location|mediaPlayback|mediaProjection|phoneCall" android:name="com.apkpure.aegon.popups.quickV2.service.QuickNotificationService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.BigFileCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.apkpure.clean.activity.CleanMainActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.RecycleBinActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.DuplicateCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.DuplicateDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.CleaningActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.BatteryOptActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.apkpure.clean.activity.AppCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.audio.AudioCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.AppCleanScanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.AppCleanFileListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.apkpure.pop.TransparentActivity" android:taskAffinity="com.apkpure.aegon.pop.transparent" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120209"/>
+        <activity android:name="com.apkpure.aegon.person.activity.debug.CleanDebugSettingActivity"/>
+        <activity android:name="com.apkpure.aegon.person.activity.debug.PopTipsDebugActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.VideoCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.PictureCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.QuickCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.SelectFileDetailActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.notification.NotificationCleanActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.notification.NotificationBlockSettingActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.VideoImageCleanFileListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.apkpure.clean.activity.DuplicateImageCleanFileListActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.apkpure.aegon.main.activity.SplashAdActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:name="com.apkmatrix.components.clientupdate.UpdateDialogActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12008e"/>
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c5"/>
+        <provider android:authorities="com.apkpure.aegon.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.apkmatrix.components.downloader.utils.DownloaderFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/APKTOOL_DUPLICATE_xml_0x7f140003"/>
+        </provider>
+        <service android:name="com.apkmatrix.components.downloader.services.DownloadService"/>
+        <provider android:authorities="com.apkpure.aegon.AgentWebFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.just.agentweb.AgentWebFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/APKTOOL_DUPLICATE_xml_0x7f140012"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.just.agentweb.ActionActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120423" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="com.apkpure.aegon.com.liulishuo.okdownload" android:exported="false" android:name="com.liulishuo.okdownload.OkDownloadProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f110798" android:name="com.loong.gamesdk.GameActivity" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <provider android:authorities="com.apkpure.aegon.dt.ipc.DTMainProcessContentProvider" android:enabled="true" android:exported="false" android:name="com.tencent.qqlive.module.videoreport.provider.DTMainProcessContentProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.vungle.ads.internal.ui.VungleActivity"/>
+        <provider android:authorities="com.apkpure.aegon.vungle-provider" android:exported="false" android:name="com.vungle.ads.internal.util.VungleProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" android:theme="@style/tt_landing_page"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity" android:theme="@style/tt_landing_page"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity" android:theme="@style/tt_landing_page"/>
+        <activity android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity" android:screenOrientation="portrait" android:theme="@style/tt_privacy_landing_page"/>
+        <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity" android:theme="@style/tt_app_open_ad_no_animation"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity" android:theme="@style/tt_full_screen_new"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity" android:theme="@style/tt_full_screen_interaction"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity" android:theme="@style/tt_full_screen_interaction"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.tagmanager.TagManagerService"/>
+        <activity android:exported="true" android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity" android:noHistory="true">
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.apkpure.aegon"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.apkpure.aegon.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f1105c2" android:name="com.apkpure.components.xinstaller.permission.StorePermissionActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c7"/>
+        <activity android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f1105c2" android:name="com.apkpure.components.xinstaller.permission.InstallPermissionActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c7"/>
+        <activity android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f1105c2" android:name="com.apkpure.components.xinstaller.receiver.SystemInstallReceiverActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c7"/>
+        <activity android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f1105c2" android:launchMode="singleTask" android:name="com.apkpure.components.xinstaller.receiver.SessionInstallReceiverActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c7"/>
+        <activity android:exported="false" android:label="@string/APKTOOL_DUPLICATE_string_0x7f1105c2" android:launchMode="singleTask" android:name="com.apkpure.components.xinstaller.receiver.UnInstallReceiverActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c7"/>
+        <activity android:exported="false" android:name="com.apkpure.components.xinstaller.ui.TestInstallActivity"/>
+        <service android:exported="false" android:name="com.apkpure.components.xinstaller.receiver.InstallServiceReceiver"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.san.mads.webview.WebViewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:multiprocess="true" android:name="com.san.common.offline.OfflineNetGuideActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1201f3"/>
+        <receiver android:exported="false" android:multiprocess="true" android:name="com.san.core.receiver.AppPkgReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.san.san-ex-sdk.ver" android:value="[3.13.9.5](3130905)"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.san.mads.FullScreenActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120213"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.san.mads.mraid.MraidVideoPlayerActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.san.mads.splash.SplashAdActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120213"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:multiprocess="true" android:name="com.san.core.CommonStartOpenActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.san.core.CommonProtectActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f1202c5"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:multiprocess="true" android:name="com.san.az.AdAppOperator" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.san.proaz.OutProAzOperatorActivity"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:multiprocess="true" android:name="com.san.proaz.OutProAzImproveActivity" android:screenOrientation="behind" android:taskAffinity=":.proazTask" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12014d"/>
+        <activity android:exported="false" android:multiprocess="true" android:name="com.san.proactive.OutProActiveOperatorActivity"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:multiprocess="true" android:name="com.san.proactive.OutProActiveImproveActivity" android:screenOrientation="behind" android:taskAffinity=":.proazTask" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12014d"/>
+        <service android:exported="false" android:multiprocess="true" android:name="com.san.xz.service.IXzService">
+            <intent-filter>
+                <action android:name="com.san.sdk.ACTION_IXZ_CLOUD_ITEM"/>
+                <action android:name="com.san.sdk.ACTION_IXZ_RESUME"/>
+                <action android:name="com.san.sdk.ACTION_IXZ_DISALLOW"/>
+                <action android:name="com.san.sdk.ACTION_IXZ_START_SILENCE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:multiprocess="true" android:name="com.san.proaz.NotificationCleanReceiver"/>
+        <meta-data android:name="com.san.channel" android:value="ex"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:multiprocess="true" android:name="com.san.landingpage.AdLandingPageActivity"/>
+        <service android:exported="false" android:multiprocess="true" android:name="com.san.reserve.service.ReserveNotifyService">
+            <intent-filter>
+                <action android:name="com.apkpure.aegon.RESERVE_NOTIFY_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:multiprocess="true" android:name="com.san.reserve.service.ReserveAlarmService"/>
+        <service android:exported="true" android:multiprocess="true" android:name="com.san.a.strategy.notification.AliveNotifyService">
+            <intent-filter>
+                <action android:name="com.apkpure.aegon.ALIVE_NOTIFY_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:multiprocess="true" android:name="com.san.reserve.receive.ReserveAlarmReceive"/>
+        <service android:exported="true" android:foregroundServiceType="specialUse" android:name="com.huhu.booster.sdk.BoosterService" android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+            </intent-filter>
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Booster VPN Service"/>
+        </service>
+        <provider android:authorities="com.apkpure.aegon.luckProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.luck.picture.lib.basic.PictureFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/APKTOOL_DUPLICATE_xml_0x7f140008"/>
+        </provider>
+        <service android:enabled="true" android:foregroundServiceType="location" android:name="com.luck.picture.lib.service.ForegroundService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12007d"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12013d"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.yalantis.ucrop.UCropMultipleActivity" android:screenOrientation="portrait" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f120209"/>
+        <service android:directBootAware="false" android:enabled="@bool/APKTOOL_DUPLICATE_bool_0x7f050002" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/APKTOOL_DUPLICATE_bool_0x7f050004" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/APKTOOL_DUPLICATE_bool_0x7f050003" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/APKTOOL_DUPLICATE_bool_0x7f050002" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.bumptech.glide.integration.webp.WebpGlideModule" android:value="GlideModule"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/APKTOOL_DUPLICATE_integer_0x7f0a0008"/>
+        <provider android:authorities="com.apkpure.aegon.rmonitor-installer" android:exported="false" android:name="com.tencent.rmonitor.launch.AppLaunchMonitorInstaller"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:name="sg.bigo.ads.ad.splash.AdSplashActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme"/>
+        <activity android:name="sg.bigo.ads.ad.splash.LandscapeAdSplashActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme"/>
+        <provider android:authorities="com.apkpure.aegon.BigoAdsProvider" android:exported="false" android:name="sg.bigo.ads.controller.provider.BigoAdsProvider"/>
+        <activity android:name="sg.bigo.ads.controller.form.AdFormActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenSize" android:name="sg.bigo.ads.api.AdActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="sg.bigo.ads.api.PopupAdActivity" android:screenOrientation="portrait" android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12047a" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="sg.bigo.ads.api.LandingStyleableActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="sg.bigo.ads.api.LandscapeAdActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Holo.Light.NoActionBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="sg.bigo.ads.api.CompanionAdActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light.NoActionBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:name="sg.bigo.ads.api.LandscapeCompanionAdActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Holo.Light.NoActionBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="sg.bigo.ads.core.mraid.MraidVideoActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="en.hance.launchsdk.launch.TaskActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </application>
+</manifest>

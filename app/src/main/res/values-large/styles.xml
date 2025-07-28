@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12005c" parent="@style/APKTOOL_DUPLICATE_style_0x7f12005a" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f120063" parent="@style/APKTOOL_DUPLICATE_style_0x7f120061" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f120072" parent="@style/APKTOOL_DUPLICATE_style_0x7f120070" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f12007c" parent="@style/APKTOOL_DUPLICATE_style_0x7f12007a" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f12021b" parent="@style/APKTOOL_DUPLICATE_style_0x7f120066">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404e9">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001c</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404ea">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001d</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404eb">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001e</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404ec">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001f</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12022c" parent="@style/APKTOOL_DUPLICATE_style_0x7f120069">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404e9">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001c</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404ea">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001d</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404eb">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001e</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0404ec">@dimen/APKTOOL_DUPLICATE_dimen_0x7f07001f</item>
+    </style>
+</resources>

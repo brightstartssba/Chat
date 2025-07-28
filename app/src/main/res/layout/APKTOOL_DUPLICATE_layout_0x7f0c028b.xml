@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070068" android:paddingEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070068"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d89" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110489" app:APKTOOL_DUPLICATE_attr_0x7f04017e="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804a0" style="@style/APKTOOL_DUPLICATE_style_0x7f120475" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d8a" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110519" app:APKTOOL_DUPLICATE_attr_0x7f04017e="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804a1" style="@style/APKTOOL_DUPLICATE_style_0x7f120475" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d87" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110139" app:APKTOOL_DUPLICATE_attr_0x7f04017e="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08049e" style="@style/APKTOOL_DUPLICATE_style_0x7f120475" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d88" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110395" app:APKTOOL_DUPLICATE_attr_0x7f04017e="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08049f" style="@style/APKTOOL_DUPLICATE_style_0x7f120475" />
+</LinearLayout>

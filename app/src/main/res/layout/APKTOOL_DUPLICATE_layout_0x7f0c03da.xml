@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apkpure.aegon.ads.topon.nativead.hook.NativeAdJumpDetailWrapper android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b09" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b0e" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060">
+        <com.apkpure.aegon.widgets.app_icon.AppIconView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900b8" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070082" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070082" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070082" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089">
+            <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070090" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a6" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b0f" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070064" android:maxLines="1" />
+            <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07008e" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b0a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:maxHeight="32.0dip" android:minHeight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:maxLines="1" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905d6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.apkpure.aegon.ads.topon.nativead.hook.NativeAdDownloadButtonWrapper android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b0d" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textStyle="normal" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b0c" android:tag="@string/APKTOOL_DUPLICATE_string_0x7f1105b0" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" android:maxLines="1" style="@style/APKTOOL_DUPLICATE_style_0x7f120468" />
+                <com.apkpure.aegon.download.RoundHollowDownloadButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908e4" android:tag="@string/APKTOOL_DUPLICATE_string_0x7f1105b1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" />
+            </com.apkpure.aegon.ads.topon.nativead.hook.NativeAdDownloadButtonWrapper>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

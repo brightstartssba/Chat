@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900f5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090524" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080163" android:padding="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:layout_marginBottom="42.0dip" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@mipmap/ic_launcher" android:scaleType="fitXY" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060038" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110030" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003f" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0902be" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="It's time to organize your own troops!" android:maxLines="1" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003b" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0902b1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070083" android:text="Create your own heroes and soldiers." android:maxLines="1" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07008e" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:gravity="center" android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b2f" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08015d" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070080" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" android:text="View" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" />
+            </LinearLayout>
+            <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0902ad" android:layout_width="fill_parent" android:layout_height="112.0dip" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

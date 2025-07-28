@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09062d" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060">
+        <com.apkpure.aegon.widgets.checkbox.IndeterminateCheckBox android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090102" android:layout_width="28.0dip" android:layout_height="wrap_content" android:checked="false" app:APKTOOL_DUPLICATE_attr_0x7f040230="false" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003f" android:ellipsize="end" android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="App Cache" android:lines="1" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" />
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ProgressBar android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b2b" android:visibility="gone" android:clickable="false" android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080402" style="@android:style/Widget.ProgressBar.Small" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003b" android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b2c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="290 MB" android:layout_marginEnd="10.0dip" />
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09052f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0803f2" />
+</LinearLayout>

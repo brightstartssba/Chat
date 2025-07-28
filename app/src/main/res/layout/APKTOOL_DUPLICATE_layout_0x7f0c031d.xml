@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090c57" android:layout_width="84.0dip" android:layout_height="76.0dip">
+        <com.apkpure.aegon.widgets.app_icon.AppIconView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900b8" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070085" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070085" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090515" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0805bd" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003f" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900bb" android:layout_width="fill_parent" android:layout_height="17.0dip" android:maxLines="1" android:textAlignment="center" />
+</LinearLayout>

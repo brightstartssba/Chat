@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="other">يتم تحميل %1$dعنصر</item>
+        <item quantity="zero">يوجد %1$d عنصر يتم تحميله</item>
+        <item quantity="one">هنالك %1$d عنصر يتم تحميله</item>
+        <item quantity="two">"هنالك %1$d  عنصريتم تحميله"</item>
+        <item quantity="few">هنالك %1$dعناصر يتم تحميلها</item>
+        <item quantity="many">هنالك %1$dعنصر يتم تحميله</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="other">هنالك %1$d تطبيق بحاجة الى تحديث</item>
+        <item quantity="zero">%1$d تطبيق بحاجة الى تحديث</item>
+        <item quantity="one">هنالك %1$d تحديث</item>
+        <item quantity="two">هنالك %1$d تحديث جديد</item>
+        <item quantity="few">يتوفر %1$d تحديثات جديدة</item>
+        <item quantity="many">يتوفر %1$d تحديث جديد</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0002">
+        <item quantity="other">رؤية كافة الـ%1$dرد</item>
+        <item quantity="zero">رؤية%1$d رد</item>
+        <item quantity="one">رؤية رد</item>
+        <item quantity="two">رؤية رد</item>
+        <item quantity="few">رؤية كافة رد</item>
+        <item quantity="many">رؤية جميع الـ %1$d رد</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0004">
+        <item quantity="other">" المجموع: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> تطبيق, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="zero">" المجموع: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> تطبيق, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="one">" المجموع: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> تطبيق, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="two">" المجموع: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> تطبيق, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="few">" المجموع: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> تطبيق, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="many">" المجموع: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> تطبيق, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+    </plurals>
+</resources>

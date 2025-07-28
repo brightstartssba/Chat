@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkpure.aegon.widgets.CustomSwipeRefreshLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090390" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0907f8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.apkpure.aegon.widgets.DisableRecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904de" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090751" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+        <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090752" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+        <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090753" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+        <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090754" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    </FrameLayout>
+</com.apkpure.aegon.widgets.CustomSwipeRefreshLayout>

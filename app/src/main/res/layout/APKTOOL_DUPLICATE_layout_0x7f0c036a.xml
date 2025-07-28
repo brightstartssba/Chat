@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909c4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.apkpure.aegon.widgets.textview.RoundFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a8e" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040398="18.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.rishabhharit.roundedimageview.RoundedImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a8f" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="3.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" app:APKTOOL_DUPLICATE_attr_0x7f04013e="18.0dip" />
+        <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070090" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06032d" android:ellipsize="end" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="12.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</FrameLayout>

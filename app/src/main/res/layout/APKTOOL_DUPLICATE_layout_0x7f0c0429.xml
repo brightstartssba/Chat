@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.san.landingpage.widget.AnimatedDoorLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090cc0" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090ccb" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090ccc" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+        <com.san.landingpage.widget.ObservableScrollView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d9d" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09012b" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.san.landingpage.widget.ObservableScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09086c" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a06" android:visibility="gone" layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c043e" />
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c044f" />
+    </FrameLayout>
+</com.san.landingpage.widget.AnimatedDoorLayout>

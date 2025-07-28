@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/APKTOOL_DUPLICATE_id_0x7f090488" app:APKTOOL_DUPLICATE_attr_0x7f04061f="@id/APKTOOL_DUPLICATE_id_0x7f090ab4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="MyArtWorkFragment" android:name="com.apkpure.aegon.aigc.pages.works.MyWorksMainFragment" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090ab4" />
+    <fragment android:label="CharacterCreateFragment" android:name="com.apkpure.aegon.aigc.pages.character.create.CharacterCreateFragment" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905f0" />
+    <fragment android:label="CharacterManageFragment" android:name="com.apkpure.aegon.aigc.pages.character.manage.CharacterManageFragment" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905f2" />
+    <fragment android:name="com.apkpure.aegon.aigc.pages.character.edit.AigcCharacterEditFragment" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905f1" />
+    <fragment android:name="com.apkpure.aegon.aigc.pages.character.setting.AIGCSettingFragment" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090434" />
+    <fragment android:name="com.apkpure.aegon.aigc.pages.character.template.NewTemplateFragment" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09043b" />
+    <fragment android:name="com.apkpure.aegon.pages.AIGCMainFragment" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090489" />
+</navigation>

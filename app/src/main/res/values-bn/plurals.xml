@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="other">%1$d আইটেম ডাউনলোড হচ্ছে</item>
+        <item quantity="one">%1$d বিষয়টি ডাউনলোড হচ্ছে</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="other">%1$d নতুন আপডেট উপলভ্য</item>
+        <item quantity="one">%1$d New Update Is Available</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0002">
+        <item quantity="other">সমস্ত %1$d উত্তর দেখুন</item>
+        <item quantity="one">সব দেখুন %1$d উত্তর দিন</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0004">
+        <item quantity="other">" মোট: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> অ্যাপ, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="one">" মোট: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> অ্যাপ, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.button.DialogActionButtonLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a68" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a6c" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUPLICATE_style_0x7f12045c" />
+    <com.afollestad.materialdialogs.internal.button.DialogActionButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a6b" style="@style/APKTOOL_DUPLICATE_style_0x7f12045a" />
+    <com.afollestad.materialdialogs.internal.button.DialogActionButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a69" style="@style/APKTOOL_DUPLICATE_style_0x7f12045a" />
+    <com.afollestad.materialdialogs.internal.button.DialogActionButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a6a" style="@style/APKTOOL_DUPLICATE_style_0x7f12045a" />
+</com.afollestad.materialdialogs.internal.button.DialogActionButtonLayout>

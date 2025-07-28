@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="50.0dip" android:width="158.0dip" android:viewportWidth="158.0" android:viewportHeight="50.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0801ca" android:pathData="M0,0H158V42C158,46.42 154.42,50 150,50H8C3.58,50 0,46.42 0,42V0Z" android:strokeAlpha="0.6" android:fillAlpha="0.6" />
+</vector>

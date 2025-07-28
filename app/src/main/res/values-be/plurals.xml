@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d новага апавяшчэння</item>
+        <item quantity="one">%d новае апавяшчэнне</item>
+        <item quantity="few">%d новыя апавяшчэнні</item>
+        <item quantity="many">%d новых апавяшчэнняў</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkpure.aegon.widgets.textview.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" app:APKTOOL_DUPLICATE_attr_0x7f040396="?APKTOOL_DUPLICATE_attr_0x7f040587" app:APKTOOL_DUPLICATE_attr_0x7f040398="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c02f9" />
+</com.apkpure.aegon.widgets.textview.RoundFrameLayout>

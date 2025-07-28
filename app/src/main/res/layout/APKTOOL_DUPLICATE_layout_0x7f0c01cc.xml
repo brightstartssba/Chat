@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909a4" android:tag="@string/APKTOOL_DUPLICATE_string_0x7f1106b5" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="24.0dip" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080304" android:scaleType="fitXY" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909a6" android:tag="@string/APKTOOL_DUPLICATE_string_0x7f1106b6" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="24.0dip" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08030a" android:scaleType="fitXY" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff333333" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909b0" android:tag="@string/APKTOOL_DUPLICATE_string_0x7f1106b9" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:paddingStart="10.0dip" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909a7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909ad" android:tag="@string/APKTOOL_DUPLICATE_string_0x7f1106b8" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:alpha="0.0" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+</LinearLayout>

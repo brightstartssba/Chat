@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090932" android:background="#ffe9f0f5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <sg.bigo.ads.common.view.RoundedFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040527="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040528="8.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090579" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+            <TextView android:textSize="15.5sp" android:textColor="#ff9fb0bb" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090933" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.5dip" />
+        </LinearLayout>
+    </sg.bigo.ads.common.view.RoundedFrameLayout>
+    <sg.bigo.ads.common.view.RoundedFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="84.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040533="8.0dip">
+        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff262e33" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090931" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="15.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <sg.bigo.ads.common.view.MixtureTextView android:textSize="13.0sp" android:textColor="#ff6d7e88" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090930" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <sg.bigo.ads.common.view.PrivacyCheckBox android:id="@id/APKTOOL_DUPLICATE_id_0x7f090926" android:layout_width="16.0dip" android:layout_height="16.0dip" app:APKTOOL_DUPLICATE_attr_0x7f04052c="true" app:APKTOOL_DUPLICATE_attr_0x7f04052e="APKTOOL_DUPLICATE_id_0x7f090896" app:APKTOOL_DUPLICATE_attr_0x7f04052f="#ffdde5e9" />
+                </sg.bigo.ads.common.view.MixtureTextView>
+                <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f09056f" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            </RelativeLayout>
+        </LinearLayout>
+    </sg.bigo.ads.common.view.RoundedFrameLayout>
+</LinearLayout>

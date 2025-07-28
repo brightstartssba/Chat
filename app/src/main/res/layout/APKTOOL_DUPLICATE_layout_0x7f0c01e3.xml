@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090900" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginBottom="-83.0dip" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0802f0" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

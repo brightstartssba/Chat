@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0dip" android:layout_height="14.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804ac" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff222222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110050" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11004f" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09048a" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09048b" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09048c" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09048d" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0dip" android:layout_height="14.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804b0" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff222222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110052" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110051" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090491" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090492" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090493" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090494" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="14.0dip" />
+    </LinearLayout>
+</LinearLayout>

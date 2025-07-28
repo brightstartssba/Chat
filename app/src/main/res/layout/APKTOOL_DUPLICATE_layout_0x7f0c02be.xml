@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900f5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906d9" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070075" android:paddingStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="16.0dip" android:contentDescription="@null" android:alpha="0.6" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080494" />
+        <TextView android:textAppearance="?APKTOOL_DUPLICATE_attr_0x7f04045a" android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a5" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903cd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="18.0dip" android:lines="1" android:singleLine="true" android:includeFontPadding="false" android:alpha="0.9" android:textAlignment="viewStart" android:layout_marginStart="6.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906e7" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080250" android:layout_width="102.0dip" android:layout_height="102.0dip" android:layout_margin="5.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804af" />
+        <androidx.cardview.widget.CardView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906ea" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:APKTOOL_DUPLICATE_attr_0x7f040096="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906e9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906e8" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="20.0dip" android:layout_height="20.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080418" />
+    </FrameLayout>
+</FrameLayout>

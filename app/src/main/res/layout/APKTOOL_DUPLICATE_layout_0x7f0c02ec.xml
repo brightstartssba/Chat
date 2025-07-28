@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090cc8" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909fe" android:background="?APKTOOL_DUPLICATE_attr_0x7f0405ee" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" />
+    <com.apkpure.aegon.widgets.MultiTypeRecyclerView android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090be2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

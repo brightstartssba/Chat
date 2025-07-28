@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/APKTOOL_DUPLICATE_color_0x7f060032" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070087" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0907ae" android:layout_width="fill_parent" android:layout_height="374.0dip">
+                <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903da" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="180.0dip" android:minHeight="30.0dip" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060348" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090709" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minHeight="21.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090f19" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="102.0dip" android:layout_marginBottom="4.0dip" android:minHeight="19.0dip" android:paddingStart="16.0dip" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090312" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070085" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="160.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08028e" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905a6" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040272="APKTOOL_DUPLICATE_id_0x7f0902d7">
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f0602ae" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906c8" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0803da" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginBottom="24.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1101ab" android:layout_weight="1.0" android:layout_marginStart="16.0dip" style="?android:borderlessButtonStyle" />
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06002f" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090483" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0803d9" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110478" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</FrameLayout>

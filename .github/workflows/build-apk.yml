@@ -1,0 +1,62 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # Cho phép chạy thủ công
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'zulu'
+        cache: gradle
+    
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    
+    - name: Build debug APK
+      run: ./gradlew assembleDebug
+    
+    - name: Upload APK artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: apkpure-debug-apk
+        path: app/build/outputs/apk/debug/*.apk
+        retention-days: 30
+    
+    - name: Create Release
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: v${{ github.run_number }}
+        name: APKPure Build ${{ github.run_number }}
+        body: |
+          🚀 **Automatically built APK from commit:** ${{ github.sha }}
+          
+          📱 **APK Information:**
+          - Package: com.apkpure.aegon
+          - Version: 3.20.51
+          - Build: ${{ github.run_number }}
+          
+          📝 **Changes in this build:**
+          ${{ github.event.head_commit.message }}
+          
+          📥 **Download:** Tải file `apkpure-decompiled.apk` bên dưới và cài đặt trên Android
+        draft: false
+        prerelease: false
+        files: |
+          app/build/outputs/apk/debug/app-debug.apk
+        token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

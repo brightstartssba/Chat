@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.main.DialogLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a71" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c03bf" />
+    <com.afollestad.materialdialogs.internal.message.DialogContentLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a6d" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c03bb" />
+</com.afollestad.materialdialogs.internal.main.DialogLayout>

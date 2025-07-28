@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ProgressBar android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a52" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Game Loading..." app:APKTOOL_DUPLICATE_attr_0x7f040272="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f040278="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f04028c="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f040290="APKTOOL_DUPLICATE_id_0x7f0902d7" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

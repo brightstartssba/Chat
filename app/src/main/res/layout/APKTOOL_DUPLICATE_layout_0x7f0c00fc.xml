@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkpure.aegon.widgets.CustomSwipeRefreshLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f09035f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.apkpure.aegon.widgets.webview.CustomWebView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09041a" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040138="APKTOOL_DUPLICATE_id_0x7f090394" />
+</com.apkpure.aegon.widgets.CustomSwipeRefreshLayout>

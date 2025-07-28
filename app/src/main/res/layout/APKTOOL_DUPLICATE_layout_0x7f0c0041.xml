@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkpure.aegon.widgets.textview.RoundFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903a3" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070068" android:paddingStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:paddingEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" app:APKTOOL_DUPLICATE_attr_0x7f040396="?APKTOOL_DUPLICATE_attr_0x7f04056d" app:APKTOOL_DUPLICATE_attr_0x7f040398="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04056e" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09039e" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070068" android:includeFontPadding="false" />
+</com.apkpure.aegon.widgets.textview.RoundFrameLayout>

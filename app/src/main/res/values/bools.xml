@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="arg">true</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050001">true</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050002">true</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050003">true</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050004">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050005">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050006">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050007">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050008">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050009">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f05000a">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f05000b">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f05000c">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f05000d">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f05000e">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f05000f">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050010">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050011">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050012">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050013">false</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050014">true</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050016">true</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050017">true</bool>
+    <bool name="APKTOOL_DUPLICATE_bool_0x7f050018">false</bool>
+</resources>

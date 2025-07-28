@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900f5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906d9" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07021d">
+            <com.apkpure.aegon.widgets.app_icon.AppIconView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901e1" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginEnd="8.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip">
+                <TextView android:textAppearance="?APKTOOL_DUPLICATE_attr_0x7f04045a" android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a5" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="18.0dip" android:singleLine="true" android:includeFontPadding="false" android:alpha="0.8" />
+                <LinearLayout android:gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904fa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:minHeight="18.0dip">
+                    <com.apkpure.aegon.widgets.flowlayout.TagFlowLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904f9" android:layout_width="wrap_content" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f0402fc="1" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908e0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:minHeight="14.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a5" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908e8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:alpha="0.4" android:textAlignment="viewStart" android:layout_marginEnd="8.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a5" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09053e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:alpha="0.4" android:textAlignment="viewStart" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.apkpure.aegon.download.RoundHollowDownloadButton android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901f1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1102c4" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

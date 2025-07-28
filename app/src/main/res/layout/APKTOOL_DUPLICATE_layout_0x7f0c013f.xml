@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09014a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901bb" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

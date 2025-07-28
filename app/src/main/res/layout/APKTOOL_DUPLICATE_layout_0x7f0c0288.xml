@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0395" />
+    <com.apkpure.aegon.widgets.banner.ConvenientBanner android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906dd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

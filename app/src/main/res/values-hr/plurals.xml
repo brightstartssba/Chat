@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="other">%1$d items are downloading</item>
+        <item quantity="one">%1$d item is downloading</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="other">%1$d new updates are available</item>
+        <item quantity="one">%1$d new update is available</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d novih obavijesti</item>
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+    </plurals>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/APKTOOL_DUPLICATE_string_0x7f110297">
+        <ListPreference android:entries="@array/APKTOOL_DUPLICATE_array_0x7f030018" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11030d" android:key="language" android:defaultValue="__auto__" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/APKTOOL_DUPLICATE_array_0x7f030019" />
+        <ListPreference android:entries="@array/APKTOOL_DUPLICATE_array_0x7f030009" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110585" android:key="region" android:defaultValue="@string/APKTOOL_DUPLICATE_string_0x7f1101cc" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/APKTOOL_DUPLICATE_array_0x7f030021" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110399" android:key="themes_select" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f1105c5" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110393" android:key="night_mode_switch" android:defaultValue="false" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f1101c2" android:key="province_traffic_model" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f1101c3" android:defaultValue="false" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11029c" android:key="gif_auto" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f11029b" android:defaultValue="true" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110650" android:key="video_auto_play" android:defaultValue="true" />
+        <com.apkpure.aegon.widgets.CustomListPreference android:entries="@array/APKTOOL_DUPLICATE_array_0x7f03002c" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f1106bf" android:key="key_boost_and_start" android:defaultValue="@string/APKTOOL_DUPLICATE_string_0x7f1106bd" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/APKTOOL_DUPLICATE_array_0x7f03002d" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/APKTOOL_DUPLICATE_string_0x7f11020a">
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110222" android:key="download_via_wifi_only" android:defaultValue="false" />
+        <ListPreference android:entries="@array/APKTOOL_DUPLICATE_array_0x7f030006" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11020c" android:key="download_complete_installation_type" android:defaultValue="@string/APKTOOL_DUPLICATE_string_0x7f11020d" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/APKTOOL_DUPLICATE_array_0x7f030007" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110217" android:key="download_mkdir_type" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f11021a" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/APKTOOL_DUPLICATE_string_0x7f1102d5">
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110591" android:key="show_notification_after_installation" android:defaultValue="true" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f1101e3" android:key="delete_packages_after_installation" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/APKTOOL_DUPLICATE_string_0x7f110445" android:key="notification_setting">
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11053b" android:key="reply_notification" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f11053c" android:defaultValue="true" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110320" android:key="upvoted_notification" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f110321" android:defaultValue="true" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110582" android:key="updates_notification" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f110583" android:defaultValue="true" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11057a" android:key="content_notification" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f11057b" android:defaultValue="true" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110578" android:key="clean_notification" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f110579" android:defaultValue="true" />
+        <SwitchPreference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110580" android:key="shortcut_notification" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f110581" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/APKTOOL_DUPLICATE_string_0x7f110022" android:key="about_group">
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11014a" android:key="check_update" android:summary="@string/APKTOOL_DUPLICATE_string_0x7f11014e" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f1101ad" android:key="contact_us" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11057c" android:key="contributor" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11057e" android:key="permissions" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11057d" android:key="open_source_licence" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110362" android:key="privacy_policy" />
+        <Preference android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110022" android:key="about" />
+        <ListPreference android:entries="@array/APKTOOL_DUPLICATE_array_0x7f030005" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c005e" android:title="Debug" android:key="debug" android:defaultValue="@string/APKTOOL_DUPLICATE_string_0x7f110534" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/APKTOOL_DUPLICATE_array_0x7f030005" />
+    </PreferenceCategory>
+</PreferenceScreen>

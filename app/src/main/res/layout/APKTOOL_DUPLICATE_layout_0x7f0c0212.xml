@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a07" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <sg.bigo.ads.api.MediaView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09058f" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090925" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08033f" android:paddingBottom="44.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c01fd" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffd8d8d8" android:ellipsize="end" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909a2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+            <sg.bigo.ads.api.AdOptionsView android:layout_gravity="end|bottom|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090591" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginBottom="9.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

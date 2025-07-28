@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f090df5" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090cb5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f090df5">
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080583" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <com.luck.picture.lib.widget.MarqueeTextView android:textSize="18.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f0603fa" android:ellipsize="marquee" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bf7" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="6" android:scrollHorizontally="true" android:singleLine="true" android:includeFontPadding="false" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" />
+            <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080586" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_toEndOf="@id/APKTOOL_DUPLICATE_id_0x7f090bf7" />
+        </RelativeLayout>
+        <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignStart="@id/APKTOOL_DUPLICATE_id_0x7f090bed" android:layout_alignEnd="@id/APKTOOL_DUPLICATE_id_0x7f090bed" />
+        <com.luck.picture.lib.widget.MediumBoldTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f0603fa" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bef" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080576" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110719" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090beb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f090dda" android:background="@color/APKTOOL_DUPLICATE_color_0x7f0603ea" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.8000001dip" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f090cb5" />
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0801f0" android:pathData="M5,8.5C5,7.948 5.448,7.5 6,7.5H11L8,12.5H11L14,7.5H18L15,12.5H18L21,7.5H25L22,12.5H25L28,7.5H30C30.552,7.5 31,7.948 31,8.5V27.5C31,28.052 30.552,28.5 30,28.5H6C5.448,28.5 5,28.052 5,27.5V8.5ZM14.724,16.862C14.391,16.696 14,16.937 14,17.309V23.691C14,24.063 14.391,24.304 14.724,24.138L21.106,20.947C21.474,20.763 21.474,20.237 21.106,20.053L14.724,16.862Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090477" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <com.apkpure.aegon.widgets.textview.RoundTextView android:textSize="10.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06034e" android:layout_gravity="end|bottom|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090f17" android:paddingLeft="3.0dip" android:paddingTop="1.0dip" android:paddingRight="3.0dip" android:paddingBottom="1.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:text="@string/ad_tip" android:layout_alignParentRight="true" android:onClick="onClick" android:textAllCaps="true" android:layout_marginStart="2.0dip" android:layout_marginEnd="3.0dip" android:layout_alignParentEnd="true" app:APKTOOL_DUPLICATE_attr_0x7f040396="@color/APKTOOL_DUPLICATE_color_0x7f0602ae" app:APKTOOL_DUPLICATE_attr_0x7f040398="3.0dip" />
+</RelativeLayout>

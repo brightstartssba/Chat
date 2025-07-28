@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="APKTOOL_DUPLICATE_array_0x7f030006">
+        <item>@string/APKTOOL_DUPLICATE_string_0x7f11020e</item>
+        <item>@string/APKTOOL_DUPLICATE_string_0x7f110210</item>
+        <item>@string/APKTOOL_DUPLICATE_string_0x7f11020f</item>
+    </string-array>
+    <string-array name="APKTOOL_DUPLICATE_array_0x7f030007">
+        <item>установить_сейчас</item>
+        <item>background_not_install</item>
+        <item>никогда_устанавливать</item>
+    </string-array>
+</resources>

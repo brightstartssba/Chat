@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040096="6.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040097="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0907de" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909da" android:background="?APKTOOL_DUPLICATE_attr_0x7f040593" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0907df" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a03" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f0405a7="true" app:APKTOOL_DUPLICATE_attr_0x7f0405b1="@raw/APKTOOL_DUPLICATE_raw_0x7f100005" app:APKTOOL_DUPLICATE_attr_0x7f0405b3="-1" app:APKTOOL_DUPLICATE_attr_0x7f0405b4="APKTOOL_DUPLICATE_id_0x7f090c8c" />
+</androidx.cardview.widget.CardView>

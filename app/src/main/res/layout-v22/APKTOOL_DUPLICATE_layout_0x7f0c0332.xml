@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909c3" android:layout_width="64.0dip" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apkpure.components.gamebooster.view.GameBoosterIcon android:id="@id/APKTOOL_DUPLICATE_id_0x7f090813" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060348" android:ellipsize="end" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909b9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909b8" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0802a3" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1106bb" android:maxLines="1" android:paddingVertical="4.0dip" />
+</LinearLayout>

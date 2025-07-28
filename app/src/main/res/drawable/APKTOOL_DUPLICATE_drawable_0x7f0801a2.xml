@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@color/APKTOOL_DUPLICATE_color_0x7f06034a" />
+    <item android:top="40.0dip" android:bottom="40.0dip">
+        <bitmap android:gravity="bottom|center" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800d0" />
+    </item>
+</layer-list>

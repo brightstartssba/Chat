@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08019c" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09004b" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110589" app:APKTOOL_DUPLICATE_attr_0x7f0403c7="APKTOOL_DUPLICATE_id_0x7f09005c" />
+    <item android:icon="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080144" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090461" android:title="@string/APKTOOL_DUPLICATE_string_0x7f110027" app:APKTOOL_DUPLICATE_attr_0x7f0403c7="APKTOOL_DUPLICATE_id_0x7f0901e3" />
+</menu>

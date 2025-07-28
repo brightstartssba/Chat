@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="other">Downloading %1$d items</item>
+        <item quantity="one">Downloading %1$d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="other">%1$d new updates are available</item>
+        <item quantity="one">%1$d new update is available</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0002">
+        <item quantity="other">See All %1$d Replies</item>
+        <item quantity="one">See All %1$d Reply</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0004">
+        <item quantity="other">" Total: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> apps, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="one">" Total: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> app, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+    </plurals>
+</resources>

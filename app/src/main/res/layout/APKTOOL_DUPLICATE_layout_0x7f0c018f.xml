@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sg.bigo.ads.api.NativeAdView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090976" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090967" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090966" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <sg.bigo.ads.common.view.RoundedFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f09096f" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                <sg.bigo.ads.api.MediaView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09095c" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </sg.bigo.ads.common.view.RoundedFrameLayout>
+            <Button android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908ff" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080319" android:visibility="invisible" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginBottom="12.0dip" android:layout_alignBottom="@id/APKTOOL_DUPLICATE_id_0x7f09096f" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:layout_alignEnd="@id/APKTOOL_DUPLICATE_id_0x7f09096f" />
+        </RelativeLayout>
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c01e6" />
+        <include android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909a3" layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c01e7" />
+        <sg.bigo.ads.common.view.RealtimeBlurLinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090912" android:padding="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/APKTOOL_DUPLICATE_id_0x7f0909a3" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f09090a" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0194" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f09090b" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0195" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f09090c" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0196" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f09090d" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0197" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f09090e" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0198" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f09090f" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0199" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f090910" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c019a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/APKTOOL_DUPLICATE_id_0x7f090911" android:layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c019b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </sg.bigo.ads.common.view.RealtimeBlurLinearLayout>
+    </RelativeLayout>
+</sg.bigo.ads.api.NativeAdView>

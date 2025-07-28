@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size android:height="100.0dip" android:width="100.0dip" />
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f0603f6" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08057f" />
+    </item>
+</layer-list>

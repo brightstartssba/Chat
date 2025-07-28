@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:layout_width="48.0dip" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apkpure.aegon.widgets.CircleImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090e11" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0802d5" android:scaleType="centerCrop" />
+    <com.apkpure.aegon.widgets.CircleImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090e12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</FrameLayout>

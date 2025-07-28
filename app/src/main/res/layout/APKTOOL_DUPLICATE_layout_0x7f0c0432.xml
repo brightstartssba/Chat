@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.san.landingpage.widget.ExpandableTextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09079f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f0703b5" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f0703b5" app:APKTOOL_DUPLICATE_attr_0x7f040503="200" app:APKTOOL_DUPLICATE_attr_0x7f04054a="true" app:APKTOOL_DUPLICATE_attr_0x7f040578="false" app:APKTOOL_DUPLICATE_attr_0x7f040579="APKTOOL_DUPLICATE_id_0x7f09043f" app:APKTOOL_DUPLICATE_attr_0x7f0405b8="5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07046c" android:textColor="#ff757575" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090cda" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textColor="#ff247fff" android:layout_gravity="bottom|center|right" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090cd9" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.san.landingpage.widget.ExpandableTextView>

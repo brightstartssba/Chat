@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.luck.picture.lib.widget.MediumBoldTextView android:textSize="11.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f0603fa" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bf4" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08059b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="5.0dip" />
+    <com.luck.picture.lib.widget.MediumBoldTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f0603de" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bf0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11073c" android:includeFontPadding="false" />
+</merge>

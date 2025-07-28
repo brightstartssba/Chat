@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="start" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_close_clear_cancel" android:contentDescription="@string/APKTOOL_DUPLICATE_string_0x7f110030" />
+        <ImageButton android:layout_gravity="end" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_save" android:contentDescription="@string/APKTOOL_DUPLICATE_string_0x7f110030" />
+    </FrameLayout>
+    <View android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <DatePicker android:id="@id/APKTOOL_DUPLICATE_id_0x7f09071d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:headerBackground="?APKTOOL_DUPLICATE_attr_0x7f04010c" android:calendarViewShown="false" android:calendarTextColor="?APKTOOL_DUPLICATE_attr_0x7f04010c" android:datePickerMode="spinner" />
+</LinearLayout>

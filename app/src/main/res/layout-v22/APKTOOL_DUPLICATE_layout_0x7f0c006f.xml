@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080098" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090231" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080096" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:paddingVertical="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060">
+            <ImageView android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080097" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08011a" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" />
+            <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070090" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1103e3" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" />
+            <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070090" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0400f1" android:gravity="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903fb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1103e7" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

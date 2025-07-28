@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12000d" parent="@style/APKTOOL_DUPLICATE_style_0x7f120009">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowSplashscreenContent">@drawable/APKTOOL_DUPLICATE_drawable_0x7f0801a2</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04010c">@android:color/transparent</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120056" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b6" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f12005d" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b7" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200fb" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b8" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f120313" parent="@android:style/Widget">
+        <item name="android:background">?APKTOOL_DUPLICATE_attr_0x7f04010a</item>
+        <item name="android:stateListAnimator">@animator/APKTOOL_DUPLICATE_animator_0x7f020000</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200b6" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b0">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0400f9">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200b7" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b1">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0400f9">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200b8" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200c2">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

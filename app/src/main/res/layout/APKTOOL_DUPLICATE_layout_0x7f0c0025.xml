@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:ellipsize="end" android:gravity="start" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" style="?android:textAppearanceSearchResultTitle" />
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09033f" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:contentDescription="@null" fab:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080103" />
+    <com.apkpure.aegon.widgets.button.DownloadEntryView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904d1" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09059c" android:layout_width="fill_parent" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040096="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040097="0.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090599" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09059d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060347" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09059a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="16.0dip" android:text="Free | Fast | Stable" android:maxLines="1" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09059b" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040265="androidx.recyclerview.widget.LinearLayoutManager" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="end" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08036a" android:layout_marginEnd="12.0dip" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

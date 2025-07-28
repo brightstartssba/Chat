@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090871" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904eb" android:layout_width="32.0dip" android:layout_height="32.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800f1" />
+    <com.apkpure.aegon.widgets.CircularProgressBar android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090634" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070068" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070068" app:APKTOOL_DUPLICATE_attr_0x7f040402="1.6699829dip" app:APKTOOL_DUPLICATE_attr_0x7f0405ba="100" app:APKTOOL_DUPLICATE_attr_0x7f0405f5="50" app:APKTOOL_DUPLICATE_attr_0x7f0405f6="@color/APKTOOL_DUPLICATE_color_0x7f060497" app:APKTOOL_DUPLICATE_attr_0x7f0405f7="#ffffa318" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904a8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleX="0.45" android:scaleY="0.45">
+        <ImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904a9" android:layout_width="16.0dip" android:layout_height="13.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0803bf" />
+        <View android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904aa" android:layout_width="14.0dip" android:layout_height="2.0dip" android:layout_marginTop="4.0dip" />
+    </LinearLayout>
+    <com.apkpure.aegon.widgets.textview.RoundFrameLayout android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090632" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginBottom="9.0dip" android:layout_marginStart="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040396="@color/APKTOOL_DUPLICATE_color_0x7f06033f" app:APKTOOL_DUPLICATE_attr_0x7f04039d="true" />
+</FrameLayout>

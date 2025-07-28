@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040095="@color/APKTOOL_DUPLICATE_color_0x7f060039" app:APKTOOL_DUPLICATE_attr_0x7f040096="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040097="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f04009a="false" app:APKTOOL_DUPLICATE_attr_0x7f04009b="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.SixteenByNineFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090f1a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909ee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:minHeight="100.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909ef" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080166" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070079" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070079" />
+            </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.SixteenByNineFrameLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909ed" android:layout_width="fill_parent" android:layout_height="70.0dip" android:scaleType="centerCrop" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a24" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.apkpure.aegon.widgets.app_icon.AppIconView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090435" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04062a" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090e50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <TextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04062e" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090e4f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a25" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0802c4" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginEnd="4.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804c2" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f0603bd" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090e51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.apkpure.aegon.download.RoundCusRegisterDownloadButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f090730" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <com.apkpure.aegon.widgets.GameBoosterTipView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090843" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

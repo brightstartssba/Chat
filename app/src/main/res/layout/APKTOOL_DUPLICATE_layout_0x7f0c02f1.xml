@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkpure.aegon.widgets.FitNestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903cd" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070333" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070334" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070333" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070334" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.apkpure.aegon.widgets.FitNestedScrollView>

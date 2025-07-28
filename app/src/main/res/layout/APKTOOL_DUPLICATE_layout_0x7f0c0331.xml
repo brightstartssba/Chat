@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f0" android:layout_width="216.0dip" android:layout_height="132.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070083" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070083" android:foreground="?android:selectableItemBackground" app:APKTOOL_DUPLICATE_attr_0x7f040095="?APKTOOL_DUPLICATE_attr_0x7f0404f2" app:APKTOOL_DUPLICATE_attr_0x7f040096="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" app:APKTOOL_DUPLICATE_attr_0x7f040097="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f04009a="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="216.0dip" android:layout_height="132.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090533" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08025e" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059">
+            <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090535" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07007f" android:layout_marginBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054">
+                <TextView android:textSize="12.0dip" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090532" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070053" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080079" app:APKTOOL_DUPLICATE_attr_0x7f040494="#ccffffff" />
+                <TextView android:textSize="12.0dip" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090534" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

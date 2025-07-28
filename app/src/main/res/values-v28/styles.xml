@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12000d" parent="@style/APKTOOL_DUPLICATE_style_0x7f120009">
+        <item name="android:windowBackground">@drawable/APKTOOL_DUPLICATE_drawable_0x7f0801a2</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04010c">@android:color/transparent</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120056" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b9" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f12005d" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200ba" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200a2" parent="@style/APKTOOL_DUPLICATE_style_0x7f120266">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/APKTOOL_DUPLICATE_style_0x7f1203c7</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04002a">@style/APKTOOL_DUPLICATE_style_0x7f120131</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040084">@style/APKTOOL_DUPLICATE_style_0x7f1203bf</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040085">@style/APKTOOL_DUPLICATE_style_0x7f1203bf</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040086">@style/APKTOOL_DUPLICATE_style_0x7f1203c0</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040087">@style/APKTOOL_DUPLICATE_style_0x7f1203bf</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0402ce">@style/APKTOOL_DUPLICATE_style_0x7f120132</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0402cf">@integer/APKTOOL_DUPLICATE_integer_0x7f0a002b</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120320" parent="@style/APKTOOL_DUPLICATE_style_0x7f1203ac">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0402ab">true</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1203a4" parent="@style/APKTOOL_DUPLICATE_style_0x7f1203a3">
+        <item name="android:background">?APKTOOL_DUPLICATE_attr_0x7f040113</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+    </style>
+    <style name="tt_app_open_ad_no_animation" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/tt_animation</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200b9" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b6">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040166">?android:dialogCornerRadius</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200ba" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b7">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040166">?android:dialogCornerRadius</item>
+    </style>
+</resources>

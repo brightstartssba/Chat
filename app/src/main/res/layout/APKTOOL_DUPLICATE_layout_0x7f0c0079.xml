@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901bc" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_marginBottom="12.0dip" android:scaleType="fitXY" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090056" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080094" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_marginBottom="8.0dip" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f0901bc" />
+    <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f09017c" android:background="#10171725" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f090056" />
+</RelativeLayout>

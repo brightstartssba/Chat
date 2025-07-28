@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e2" android:background="?APKTOOL_DUPLICATE_attr_0x7f04010a" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f0902a4" app:APKTOOL_DUPLICATE_attr_0x7f040362="@style/APKTOOL_DUPLICATE_style_0x7f12000b" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c031a" />
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0319" />
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c031b" />
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c031c" />
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0090" />
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c008b" />
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0090" />
+            <TextView android:textAppearance="?APKTOOL_DUPLICATE_attr_0x7f04045a" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a6" android:gravity="start" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090eb6" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:padding="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070342" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11062a" android:textAlignment="viewStart" />
+            <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0090" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

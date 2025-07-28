@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkpure.clean.widget.UpSlideDetectFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090c18" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.luck.picture.lib.photoview.PhotoView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090c17" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="70.0dip" android:layout_marginBottom="140.0dip" android:scaleType="fitCenter" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090c19" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080166" />
+</com.apkpure.clean.widget.UpSlideDetectFrameLayout>

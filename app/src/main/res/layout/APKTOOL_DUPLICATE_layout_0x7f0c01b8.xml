@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sg.bigo.ads.common.view.RoundedFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f09096d" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040533="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <sg.bigo.ads.common.view.AdImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09096c" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <sg.bigo.ads.common.view.FixContentFrameLayout android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09096e" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040533="8.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <sg.bigo.ads.common.view.AdImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09096b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    </sg.bigo.ads.common.view.FixContentFrameLayout>
+</sg.bigo.ads.common.view.RoundedFrameLayout>

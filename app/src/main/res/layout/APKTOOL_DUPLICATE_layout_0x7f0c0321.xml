@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09046c" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090659" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" app:APKTOOL_DUPLICATE_attr_0x7f040273="@id/APKTOOL_DUPLICATE_id_0x7f09046d" app:APKTOOL_DUPLICATE_attr_0x7f040278="@id/APKTOOL_DUPLICATE_id_0x7f09046d" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08045f" />
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f09046d" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040272="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f040290="APKTOOL_DUPLICATE_id_0x7f0902d7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

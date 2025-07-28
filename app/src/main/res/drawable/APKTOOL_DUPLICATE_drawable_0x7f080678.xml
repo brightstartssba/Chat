@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="1.0dip" android:color="@color/APKTOOL_DUPLICATE_color_0x7f060039" />
+    <corners android:radius="4.0dip" android:topLeftRadius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:topRightRadius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:bottomLeftRadius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:bottomRightRadius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" />
+</shape>

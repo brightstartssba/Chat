@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090063" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040189="4.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040269="APKTOOL_DUPLICATE_id_0x7f0902e4" app:APKTOOL_DUPLICATE_attr_0x7f040362="@style/APKTOOL_DUPLICATE_style_0x7f12000b" app:APKTOOL_DUPLICATE_attr_0x7f0404a1="@style/APKTOOL_DUPLICATE_style_0x7f1202c2" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.apkpure.aegon.widgets.CustomSwipeRefreshLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906f2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090312" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.apkpure.aegon.widgets.CustomSwipeRefreshLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.apkpure.aegon.widgets.textview.RoundLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905b6" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070080" android:elevation="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" app:APKTOOL_DUPLICATE_attr_0x7f0403a0="?APKTOOL_DUPLICATE_attr_0x7f0403e8" app:APKTOOL_DUPLICATE_attr_0x7f0403a2="1.0sp">
+        <androidx.appcompat.widget.AppCompatEditText android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000e" android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:ellipsize="end" android:gravity="start|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09076c" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:textAlignment="viewStart" />
+    </com.apkpure.aegon.widgets.textview.RoundLinearLayout>
+</LinearLayout>

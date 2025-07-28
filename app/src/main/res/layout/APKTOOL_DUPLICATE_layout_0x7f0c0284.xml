@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.apkpure.aegon.widgets.recycleview.MultiSnapRecyclerView android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090bbb" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

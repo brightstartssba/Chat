@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.luck.picture.lib.widget.SquareRelativeLayout android:orientation="vertical" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d97" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800bb" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d96" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/APKTOOL_DUPLICATE_id_0x7f090d97" android:layout_alignEnd="@id/APKTOOL_DUPLICATE_id_0x7f090d97" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08044c" />
+</com.luck.picture.lib.widget.SquareRelativeLayout>

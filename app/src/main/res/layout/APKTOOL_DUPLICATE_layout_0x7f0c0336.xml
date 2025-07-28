@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingTop="10.0dip" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901e2" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070075" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070075" />
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="12.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f0404a6" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903df" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09012f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:layout_gravity="center" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08027c" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1101c4" />
+</LinearLayout>

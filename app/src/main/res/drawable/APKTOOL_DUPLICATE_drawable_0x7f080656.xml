@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602e1" />
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602e1" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_checked="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602e1" />
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034e" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_checked="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602e1" />
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034e" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_checked="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602e1" />
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602e1" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904f3" android:paddingBottom="14.0dip" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.apkpure.aegon.widgets.app_icon.AppIconView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908bf" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906d8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="2" />
+</LinearLayout>

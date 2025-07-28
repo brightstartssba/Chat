@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="other"></item>
+        <item quantity="one">%1$d элемент загружается</item>
+        <item quantity="few">%1$d элемента загружаются</item>
+        <item quantity="many">%1$d элементов загружаются</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="other"></item>
+        <item quantity="one">%1$d новое обновление доступно</item>
+        <item quantity="few">%1$d новых обновлений доступны</item>
+        <item quantity="many">%1$d новых обновлений доступно</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0002">
+        <item quantity="other"></item>
+        <item quantity="one">Смотреть ещё %1$d ответ</item>
+        <item quantity="few">Смотреть ещё %1$d ответа</item>
+        <item quantity="many">Смотреть все %1$d ответов</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0004">
+        <item quantity="one">Всего: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> приложение,, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b></item>
+        <item quantity="few">Всего: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> приложения, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b></item>
+        <item quantity="many">Всего: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> приложений, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b></item>
+    </plurals>
+</resources>

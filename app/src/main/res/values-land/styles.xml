@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12031b" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200fd">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04041c">APKTOOL_DUPLICATE_id_0x7f0900fb</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040429">APKTOOL_DUPLICATE_id_0x7f0901b3</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1203e7" parent="@style/APKTOOL_DUPLICATE_style_0x7f12030d">
+        <item name="android:textAppearance">?APKTOOL_DUPLICATE_attr_0x7f040451</item>
+        <item name="android:textColor">?APKTOOL_DUPLICATE_attr_0x7f0400ff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/APKTOOL_DUPLICATE_integer_0x7f0a0024</item>
+    </style>
+</resources>

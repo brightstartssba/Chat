@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="other">%1$d elem töltődik</item>
+        <item quantity="one">%1$d elem kerül letöltésre</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="other">%1$d új frissítés érhető el</item>
+        <item quantity="one">%1$d új frissítés érhető el</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0002">
+        <item quantity="other">A(z) %1$d válasz mindegyikének megtekintése</item>
+        <item quantity="one">A(z) %1$d válasz mindegyikének megtekintése</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0004">
+        <item quantity="other">"
+        Összesen: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> alkalmazás, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b>"</item>
+        <item quantity="one">"
+        Összesen: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> alkalmazás, &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b>"</item>
+    </plurals>
+</resources>

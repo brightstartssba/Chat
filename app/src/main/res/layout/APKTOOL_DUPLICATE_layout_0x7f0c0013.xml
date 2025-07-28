@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901cd" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080048" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f09012c" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040183" style="@style/APKTOOL_DUPLICATE_style_0x7f120153">
+        <RelativeLayout android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUPLICATE_style_0x7f120154">
+            <TextView android:textAppearance="?APKTOOL_DUPLICATE_attr_0x7f040458" android:ellipsize="marquee" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903da" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" style="@style/APKTOOL_DUPLICATE_style_0x7f120157" />
+            <TextView android:textAppearance="?APKTOOL_DUPLICATE_attr_0x7f040461" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090354" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f0903da" style="@style/APKTOOL_DUPLICATE_style_0x7f120157" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09038b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" style="@style/APKTOOL_DUPLICATE_style_0x7f120156" />
+    </LinearLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

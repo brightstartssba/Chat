@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090499" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a93" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090063" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f09069d" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f090338|APKTOOL_DUPLICATE_id_0x7f0901a0" app:APKTOOL_DUPLICATE_attr_0x7f040400="@android:color/transparent">
+                <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090887" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="120.0dip" android:scaleType="fitXY" app:APKTOOL_DUPLICATE_attr_0x7f040269="APKTOOL_DUPLICATE_id_0x7f0902d6" />
+                <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e2" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060335" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f040269="APKTOOL_DUPLICATE_id_0x7f0902e4">
+                    <TextView android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:gravity="center_vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090ded" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" style="?android:textAppearanceSearchResultTitle" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.apkpure.aegon.widgets.MultiTypeRecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a98" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include android:layout_gravity="bottom" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d73" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginBottom="56.0dip" android:layout_alignParentBottom="true" layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0455" />
+</RelativeLayout>

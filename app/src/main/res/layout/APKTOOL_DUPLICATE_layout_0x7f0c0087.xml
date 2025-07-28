@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800a0" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_width="wrap_content" android:layout_height="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901dc" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800ec" />
+    <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070090" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090348" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070064" android:maxLines="1" android:includeFontPadding="false" />
+</LinearLayout>

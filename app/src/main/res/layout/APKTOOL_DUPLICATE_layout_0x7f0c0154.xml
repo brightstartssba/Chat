@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b73" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08025f" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingBottom="40.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apkpure.clean.widget.QuickCleanerEnter android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b78" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.apkpure.clean.widget.PictureVideoGarbagePreview android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b76" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.apkpure.clean.widget.PictureVideoGarbagePreview android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b7a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.apkpure.clean.widget.DuplicatePicturePreview android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b75" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.apkpure.clean.widget.PictureVideoGarbagePreview android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b72" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

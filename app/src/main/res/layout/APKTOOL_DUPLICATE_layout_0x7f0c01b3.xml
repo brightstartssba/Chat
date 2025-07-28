@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sg.bigo.ads.api.NativeAdView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090976" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090967" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <sg.bigo.ads.common.view.RoundedFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090969" android:layout_width="fill_parent" android:layout_height="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040533="12.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f090968" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09096a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="44.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <sg.bigo.ads.common.view.RoundedFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090984" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040533="12.0dip"
+                      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+                        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09093a" android:layout_width="72.0dip" android:layout_height="72.0dip" />
+                    </sg.bigo.ads.common.view.RoundedFrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                        <TextView android:textSize="21.5sp" android:textColor="#ff202124" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090992" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1106ba" android:maxLines="2" android:fontFamily="sans-serif-medium" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ff1b8863" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090909" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Google.Inc" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ff5f6367" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090914" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11068f" android:maxLines="1" />
+                    </LinearLayout>
+                </LinearLayout>
+                <sg.bigo.ads.ad.interstitial.multi_img.view.IconListView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090916" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <sg.bigo.ads.common.view.RoundedFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908fb" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040533="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+                    <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908fa" android:background="#ff1b8863" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11068d" android:maxLines="1" android:textAllCaps="false" />
+                </sg.bigo.ads.common.view.RoundedFrameLayout>
+                <sg.bigo.ads.common.view.ViewFlow android:id="@id/APKTOOL_DUPLICATE_id_0x7f090963" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="28.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090972" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c01f4" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090939" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08030b" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginEnd="20.0dip" />
+        </sg.bigo.ads.common.view.RoundedFrameLayout>
+    </LinearLayout>
+</sg.bigo.ads.api.NativeAdView>

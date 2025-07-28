@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="?APKTOOL_DUPLICATE_attr_0x7f040167" android:paddingTop="5.0dip" android:paddingRight="?APKTOOL_DUPLICATE_attr_0x7f040167" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.apkpure.aegon.widgets.flowlayout.TagFlowLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f09039d" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

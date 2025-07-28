@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090326" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0909dd" android:layout_width="315.0dip" android:layout_height="177.0dip" />
+    <com.san.landingpage.widget.RoundCornerCoverView android:visibility="visible" android:layout_width="315.0dip" android:layout_height="177.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040566="@android:color/white" app:APKTOOL_DUPLICATE_attr_0x7f0405a4="10.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0405a5="10.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040601="10.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040602="10.0dip" />
+</RelativeLayout>

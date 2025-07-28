@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0801ee" android:pathData="M5.75,6.75C5.75,6.198 6.198,5.75 6.75,5.75H29.25C29.802,5.75 30.25,6.198 30.25,6.75V29.25C30.25,29.802 29.802,30.25 29.25,30.25H6.75C6.198,30.25 5.75,29.802 5.75,29.25V6.75ZM26.703,27.311C27.086,27.311 27.326,26.899 27.139,26.566L21.379,16.326C21.188,15.986 20.698,15.986 20.507,16.326L16.233,23.925C16.041,24.265 15.552,24.265 15.361,23.925L13.291,20.245C13.1,19.906 12.611,19.906 12.42,20.245L8.864,26.566C8.677,26.899 8.918,27.311 9.3,27.311H14.328L14.328,27.311L14.328,27.311H26.703ZM12.608,13.59C13.691,13.59 14.568,12.712 14.568,11.63C14.568,10.547 13.691,9.67 12.608,9.67C11.526,9.67 10.648,10.547 10.648,11.63C10.648,12.712 11.526,13.59 12.608,13.59Z" android:fillType="evenOdd" />
+</vector>

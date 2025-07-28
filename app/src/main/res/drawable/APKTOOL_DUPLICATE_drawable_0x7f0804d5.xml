@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034a" />
+            <stroke android:width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070167" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0600c4" />
+            <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070165" />
+            <padding android:left="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070166" android:top="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070166" android:right="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070166" android:bottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070166" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034a" />
+                    <stroke android:width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016a" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602da" />
+                    <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070168" />
+                    <padding android:left="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" android:top="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" android:right="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" android:bottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034e" />
+                    <stroke android:width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070170" android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034e" android:dashWidth="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016f" android:dashGap="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016e" />
+                    <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016b" />
+                    <padding android:left="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" android:top="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" android:right="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" android:bottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true" android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602da" />
+                    <stroke android:width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070175" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602da" />
+                    <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070173" />
+                    <padding android:left="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" android:top="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" android:right="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" android:bottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016d" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602da" />
+                    <stroke android:width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070170" android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034e" android:dashWidth="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016f" android:dashGap="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016e" />
+                    <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016b" />
+                    <padding android:left="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" android:top="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" android:right="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" android:bottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016c" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602da" />
+            <stroke android:width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070175" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602da" />
+            <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070173" />
+            <padding android:left="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070174" android:top="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070174" android:right="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070174" android:bottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070174" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/APKTOOL_DUPLICATE_color_0x7f06034e" />
+            <stroke android:width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07016a" android:color="@color/APKTOOL_DUPLICATE_color_0x7f0602da" />
+            <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070168" />
+            <padding android:left="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070169" android:top="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070169" android:right="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070169" android:bottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070169" />
+        </shape>
+    </item>
+</selector>

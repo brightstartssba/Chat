@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090913" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908f7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="100.0dip" android:layout_marginBottom="100.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip">
+        <sg.bigo.ads.ad.interstitial.AdCountDownButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908f9" android:layout_width="wrap_content" android:layout_height="29.0dip" android:layout_marginTop="20.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" app:APKTOOL_DUPLICATE_attr_0x7f040529="@layout/APKTOOL_DUPLICATE_layout_0x7f0c01de" />
+    </RelativeLayout>
+</FrameLayout>

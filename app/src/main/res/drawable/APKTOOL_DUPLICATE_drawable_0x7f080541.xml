@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:pathData="M3 9V3.75C3 3.3375 3.3375 3 3.75 3H9V4.5H4.5V9H3ZM15 4.5H19.5V9H21V3.75C21 3.3375 20.6625 3 20.25 3H15V4.5ZM19.5 15V19.5H15V21H20.25C20.6625 21 21 20.6625 21 20.25V15H19.5ZM9 19.5H4.5V15H3V20.25C3 20.6625 3.3375 21 3.75 21H9V19.5ZM21 11.25H3V12.75H21V11.25Z" />
+</vector>

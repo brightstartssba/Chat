@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a33" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0802b4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0902ef" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804f1" android:indeterminateBehavior="repeat" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110358" android:layout_marginStart="10.0dip" />
+</LinearLayout>

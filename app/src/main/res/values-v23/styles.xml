@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120039" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f120043" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f120056" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b0" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f12005d" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b1" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200ca" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200d0" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200d2" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/APKTOOL_DUPLICATE_style_0x7f1201b5</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200dc" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200f1" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200f2" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200f8" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200f9" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12011f" parent="@style/APKTOOL_DUPLICATE_style_0x7f120015">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040095">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12026b" parent="@style/APKTOOL_DUPLICATE_style_0x7f120085">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0400f8">@color/APKTOOL_DUPLICATE_color_0x7f0601f7</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120291" parent="@style/APKTOOL_DUPLICATE_style_0x7f120088">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f0400f8">@color/APKTOOL_DUPLICATE_color_0x7f0601f7</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12031e" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200fe">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04004b">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040052">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040053">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f12031f" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200ff">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04004b">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040052">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120351" parent="@style/APKTOOL_DUPLICATE_style_0x7f120103">
+        <item name="android:background">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012f</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120352" parent="@style/APKTOOL_DUPLICATE_style_0x7f120104">
+        <item name="android:background">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012e</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120353" parent="@style/APKTOOL_DUPLICATE_style_0x7f120105">
+        <item name="android:background">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012f</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120365" parent="@style/APKTOOL_DUPLICATE_style_0x7f12010a">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04004b">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040052">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040053">@drawable/APKTOOL_DUPLICATE_drawable_0x7f08012c</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f120394" parent="@style/APKTOOL_DUPLICATE_style_0x7f12010e">
+        <item name="android:background">@drawable/APKTOOL_DUPLICATE_drawable_0x7f080133</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1203fa" parent="@style/APKTOOL_DUPLICATE_style_0x7f120115">
+        <item name="android:popupBackground">?APKTOOL_DUPLICATE_attr_0x7f040360</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1203fb" parent="@style/APKTOOL_DUPLICATE_style_0x7f120116">
+        <item name="android:popupBackground">?APKTOOL_DUPLICATE_attr_0x7f040360</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200b0" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200ae">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040003">?android:actionBarItemBackground</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040010">?android:actionMenuTextAppearance</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040011">?android:actionMenuTextColor</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040021">?android:actionOverflowButtonStyle</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040136">@drawable/APKTOOL_DUPLICATE_drawable_0x7f080036</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040379">?android:ratingBarStyleIndicator</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04037a">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200b1" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200af">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040003">?android:actionBarItemBackground</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040010">?android:actionMenuTextAppearance</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040011">?android:actionMenuTextColor</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040021">?android:actionOverflowButtonStyle</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040136">@drawable/APKTOOL_DUPLICATE_drawable_0x7f080036</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040379">?android:ratingBarStyleIndicator</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04037a">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

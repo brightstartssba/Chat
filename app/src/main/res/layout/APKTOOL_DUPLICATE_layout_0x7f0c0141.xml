@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewFlipper android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09083a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/APKTOOL_DUPLICATE_anim_0x7f010042" android:outAnimation="@anim/APKTOOL_DUPLICATE_anim_0x7f010043"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.apkpure.aegon.garbage.activity.GarbagePermissionPage android:id="@id/APKTOOL_DUPLICATE_id_0x7f09083b" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.apkpure.aegon.garbage.activity.GarbageScanningPage android:id="@id/APKTOOL_DUPLICATE_id_0x7f09083d" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.apkpure.aegon.garbage.activity.GarbageCleaningPage android:id="@id/APKTOOL_DUPLICATE_id_0x7f090834" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901c2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.apkpure.aegon.garbage.activity.GarbageNotJunkPage android:id="@id/APKTOOL_DUPLICATE_id_0x7f090839" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.apkpure.aegon.garbage.activity.GarbageErrorPage android:id="@id/APKTOOL_DUPLICATE_id_0x7f090837" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ViewFlipper>
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090063" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060335" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040189="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:padding="0.0dip" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040134="@color/APKTOOL_DUPLICATE_color_0x7f060335" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f090338|APKTOOL_DUPLICATE_id_0x7f0901a0" app:APKTOOL_DUPLICATE_attr_0x7f040498="APKTOOL_DUPLICATE_id_0x7f0901ab" app:APKTOOL_DUPLICATE_attr_0x7f040499="false">
+            <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e1" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060335" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f040189="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040269="APKTOOL_DUPLICATE_id_0x7f0902e4" app:APKTOOL_DUPLICATE_attr_0x7f040362="@style/APKTOOL_DUPLICATE_style_0x7f12000b" app:APKTOOL_DUPLICATE_attr_0x7f040496="@string/APKTOOL_DUPLICATE_string_0x7f110286" app:APKTOOL_DUPLICATE_attr_0x7f0404a2="@color/APKTOOL_DUPLICATE_color_0x7f060032" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+</FrameLayout>

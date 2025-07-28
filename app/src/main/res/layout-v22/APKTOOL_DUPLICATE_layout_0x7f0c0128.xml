@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUPLICATE_attr_0x7f040519" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12043c" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e1" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005">
+            <TextView android:textSize="18.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04062a" android:ellipsize="end" android:gravity="start" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:fontWeight="500" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.apkpure.aegon.widgets.MultiTypeRecyclerView android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09059e" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f0404f8="?APKTOOL_DUPLICATE_attr_0x7f040519" />
+</LinearLayout>

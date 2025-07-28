@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090099" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070055" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.apkpure.aegon.v2.app.detail.AppDetailHorizontalExtraInfoView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090077" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090810" android:background="?APKTOOL_DUPLICATE_attr_0x7f04009d" android:paddingTop="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailWhatsNewView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900af" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailVideoAdView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900a5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailWelfareCard android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900a6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailVideoListView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900a4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailDownloadRecommendView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090075" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailGalleryView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09008d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailDescriptionView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090071" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailReviewsView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090098" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailWhatsNewView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900b0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <com.apkpure.aegon.v2.app.detail.AppDetailCMSView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090069" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

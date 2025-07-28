@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.main.DialogTitleLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a77" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a6f" style="@style/APKTOOL_DUPLICATE_style_0x7f12045d" />
+    <com.afollestad.materialdialogs.internal.rtl.RtlTextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a75" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUPLICATE_style_0x7f120460" />
+</com.afollestad.materialdialogs.internal.main.DialogTitleLayout>

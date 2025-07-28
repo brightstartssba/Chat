@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903ea" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040096="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040097="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f04009a="true" app:APKTOOL_DUPLICATE_attr_0x7f04009b="false">
+        <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060335" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903d9" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="visible" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090056" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

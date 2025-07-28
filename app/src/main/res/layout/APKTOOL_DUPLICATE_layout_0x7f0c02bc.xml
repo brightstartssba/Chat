@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a54" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <me.relex.circleindicator.CircleIndicator android:gravity="center" android:layout_gravity="bottom" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090631" android:layout_width="fill_parent" android:layout_height="30.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040558="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08040c" />
+</LinearLayout>

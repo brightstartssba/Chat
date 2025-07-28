@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900b2" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:enabled="false" android:textStyle="normal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0902a2" android:background="?APKTOOL_DUPLICATE_attr_0x7f0403b0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/APKTOOL_DUPLICATE_id_0x7f090181" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="0" android:progressDrawable="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0803bb" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07008e" android:textStyle="normal" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060341" android:ellipsize="end" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900b3" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060335" android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" android:minWidth="56.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1102c4" android:maxLines="1" android:textAllCaps="true" />
+</FrameLayout>

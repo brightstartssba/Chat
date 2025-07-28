@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040189="0.0dip">
+        <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e2" android:background="?APKTOOL_DUPLICATE_attr_0x7f04010a" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f09019c|APKTOOL_DUPLICATE_id_0x7f090362" app:APKTOOL_DUPLICATE_attr_0x7f040362="@style/APKTOOL_DUPLICATE_style_0x7f12000b">
+            <androidx.appcompat.widget.AppCompatButton android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06032d" android:layout_gravity="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090db6" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f1105f8" android:maxLines="1" android:textAllCaps="false" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908b2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" />
+            <com.apkpure.aegon.widgets.flowlayout.TagFlowLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904c2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+            <TextView android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b32" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" />
+            <com.apkpure.aegon.widgets.flowlayout.TagFlowLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b31" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c0090" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09047c" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:elevation="4.0dip">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:scaleType="centerCrop" android:layout_marginEnd="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08041e" />
+        <TextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:ellipsize="end" android:gravity="start|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090db8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11009e" android:maxLines="1" android:textAlignment="viewStart" />
+    </LinearLayout>
+</LinearLayout>

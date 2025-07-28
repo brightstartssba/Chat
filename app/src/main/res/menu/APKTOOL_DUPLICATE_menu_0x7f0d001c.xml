@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/APKTOOL_DUPLICATE_id_0x7f09045b" android:title="@string/APKTOOL_DUPLICATE_string_0x7f11044d" />
+    <item android:id="@id/APKTOOL_DUPLICATE_id_0x7f090464" android:title="@string/APKTOOL_DUPLICATE_string_0x7f1105db" />
+    <item android:id="@id/APKTOOL_DUPLICATE_id_0x7f090456" android:title="@string/APKTOOL_DUPLICATE_string_0x7f1102bc" />
+    <item android:id="@id/APKTOOL_DUPLICATE_id_0x7f090463" android:title="@string/APKTOOL_DUPLICATE_string_0x7f1105da" />
+</menu>

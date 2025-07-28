@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903af" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:padding="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.apkpure.aegon.widgets.app_icon.AppIconView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903b1" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07007e" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07007e" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07008e" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04062f" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903b3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07008d" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04062e" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903b0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070067" android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903ab" android:background="?APKTOOL_DUPLICATE_attr_0x7f040524" android:paddingLeft="4.0dip" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07007f" android:paddingRight="4.0dip" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07007f" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" android:minWidth="64.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903aa" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070059" android:tint="?APKTOOL_DUPLICATE_attr_0x7f04062d" />
+                <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07008e" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04062d" android:gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903ac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" />
+            </LinearLayout>
+            <TextView android:textSize="10.0sp" android:textColor="#ffffa318" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903b2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903ae" android:padding="7.0dip" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903ad" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800a2" app:APKTOOL_DUPLICATE_attr_0x7f040494="?APKTOOL_DUPLICATE_attr_0x7f04062c" />
+    </LinearLayout>
+</FrameLayout>

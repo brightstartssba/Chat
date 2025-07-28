@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector android:enterFadeDuration="@android:integer/config_shortAnimTime" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+            <item android:state_selected="true" android:drawable="@color/APKTOOL_DUPLICATE_color_0x7f060066" />
+            <item android:drawable="@android:color/transparent" />
+        </selector>
+    </item>
+    <item android:drawable="?APKTOOL_DUPLICATE_attr_0x7f0403b5" />
+</layer-list>

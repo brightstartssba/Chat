@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?APKTOOL_DUPLICATE_attr_0x7f04009d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900ef" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040095="@color/APKTOOL_DUPLICATE_color_0x7f060039" app:APKTOOL_DUPLICATE_attr_0x7f040096="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040097="0.0dip" app:APKTOOL_DUPLICATE_attr_0x7f04009a="false" app:APKTOOL_DUPLICATE_attr_0x7f04009b="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.SixteenByNineFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090431" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09042d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:minHeight="100.0dip" />
+                <ImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09042f" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080166" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070079" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070079" />
+            </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.SixteenByNineFrameLayout>
+            <TextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040508" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903da" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:maxLines="2" android:layout_marginHorizontal="12.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="12.0dip">
+                <TextView android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04050a" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09014f" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textColor="?APKTOOL_DUPLICATE_attr_0x7f04050a" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900cd" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

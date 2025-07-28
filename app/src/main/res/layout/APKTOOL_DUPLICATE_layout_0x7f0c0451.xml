@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090390" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090aae" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.apkpure.aegon.widgets.BetterRecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090aaf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.apkpure.aegon.pages.views.MultiTypeEmptyWrapView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a30" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

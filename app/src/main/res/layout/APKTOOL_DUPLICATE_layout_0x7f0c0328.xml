@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040095="@color/APKTOOL_DUPLICATE_color_0x7f060335" app:APKTOOL_DUPLICATE_attr_0x7f040096="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" app:APKTOOL_DUPLICATE_attr_0x7f040097="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901ea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:APKTOOL_DUPLICATE_attr_0x7f040278="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f04028c="APKTOOL_DUPLICATE_id_0x7f0902d7" />
+        <CheckBox android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:button="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080238" android:layout_marginEnd="6.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040278="@id/APKTOOL_DUPLICATE_id_0x7f0901ea" app:APKTOOL_DUPLICATE_attr_0x7f040290="@id/APKTOOL_DUPLICATE_id_0x7f0901ea" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

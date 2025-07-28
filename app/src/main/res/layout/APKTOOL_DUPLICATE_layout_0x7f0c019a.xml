@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090912" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sg.bigo.ads.common.view.RoundedImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09093a" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:textSize="14.0sp" android:textColor="#ff202124" android:ellipsize="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908fa" android:background="#ffffffff" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="120.0dip" android:layout_height="72.0dip" android:layout_marginLeft="7.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11068d" android:maxLines="1" android:layout_toRightOf="@id/APKTOOL_DUPLICATE_id_0x7f09093a" android:textAllCaps="false" />
+</RelativeLayout>

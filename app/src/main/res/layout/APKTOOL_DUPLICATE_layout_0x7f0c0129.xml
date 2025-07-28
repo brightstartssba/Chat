@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090619" android:background="?APKTOOL_DUPLICATE_attr_0x7f04009d" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apkpure.aegon.chat.itemview.page.ChatToolBarView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090625" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.apkpure.aegon.chat.itemview.page.ChatMessageListView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09061a" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.apkpure.aegon.chat.itemview.page.ChatInputView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090605" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

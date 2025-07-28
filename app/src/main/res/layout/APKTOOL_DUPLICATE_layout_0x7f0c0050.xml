@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07013e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09023a" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/APKTOOL_DUPLICATE_id_0x7f09023b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07013d" style="?android:progressBarStyleSmall" />
+        <TextView android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070324" android:textColor="@android:color/black" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09023d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07013d" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11012f" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090239" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903fe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11012e" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090238" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@android:color/darker_gray" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11012d" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090af4" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060073" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090755" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070085">
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c03d6" />
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c03d0" />
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c03d2" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906ce" android:paddingTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginHorizontal="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090dbb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginHorizontal="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" />
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c03cf" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

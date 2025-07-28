@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090525" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e1" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f090338|APKTOOL_DUPLICATE_id_0x7f09019c|APKTOOL_DUPLICATE_id_0x7f090362" app:APKTOOL_DUPLICATE_attr_0x7f040482="@style/APKTOOL_DUPLICATE_style_0x7f1202c4" app:APKTOOL_DUPLICATE_attr_0x7f0404a1="@style/APKTOOL_DUPLICATE_style_0x7f1202c3" />
+        <net.lucode.hackware.magicindicator.MagicIndicator android:id="@id/APKTOOL_DUPLICATE_id_0x7f090da8" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1">
+        <FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090051" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.apkpure.aegon.widgets.viewpager.CustomViewPager android:id="@id/APKTOOL_DUPLICATE_id_0x7f09023e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0900c2" android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c007c" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

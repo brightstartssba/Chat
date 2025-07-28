@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080006" android:pathData="M6.25,7C5.698,7 5.25,7.448 5.25,8V28C5.25,28.552 5.698,29 6.25,29H29.75C30.302,29 30.75,28.552 30.75,28V10.286C30.75,9.733 30.302,9.286 29.75,9.286H17.783C17.469,9.286 17.173,9.138 16.984,8.887L15.865,7.399C15.676,7.148 15.38,7 15.065,7H6.25ZM7.973,11.572C7.42,11.572 6.973,12.02 6.973,12.572V26.001C6.973,26.553 7.42,27.001 7.973,27.001H28.035C28.587,27.001 29.035,26.553 29.035,26.001V12.572C29.035,12.02 28.587,11.572 28.035,11.572H7.973Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080007" android:pathData="M5.25,13.569H30.75V27.998C30.75,28.55 30.302,28.998 29.75,28.998H6.25C5.698,28.998 5.25,28.55 5.25,27.998V13.569Z" />
+    <path android:fillColor="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080008" android:pathData="M16.121,7.16C16.071,7.094 16.118,7 16.2,7H19.124C19.278,7 19.422,7.07 19.517,7.191L20.815,8.838C20.867,8.904 20.82,9 20.737,9H17.754C17.597,9 17.449,8.926 17.355,8.801L16.121,7.16Z" />
+</vector>

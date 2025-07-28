@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07006c" android:text="在下面输入框中输入想要模拟的数据，留空则使用真实数据" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应用更新数" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904c1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应用安装数" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904c0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载未安装" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904bf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="基础清理垃圾大小" />
+                <EditText android:textSize="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07008e" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090553" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:digits="0123456789mMgG" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上次使用省电时间（秒时间戳）" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f090a02" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="展示的电量优化值" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f090556" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="0-6" android:maxLines="1" android:singleLine="true" android:maxLength="3" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电量百分比" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f090557" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="0-100" android:maxLines="1" android:singleLine="true" android:maxLength="3" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大文件大小" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f09055f" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重复文件大小" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f090758" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="垃圾最多应用名称" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904bd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="垃圾最多应用包名" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904be" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="垃圾最多应用垃圾大小" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f0904bc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="系统版本(安卓Api Level)" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b5e" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="number" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="存储空间最大容量" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d82" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="存储空间剩余容量" />
+                <EditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d81" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/APKTOOL_DUPLICATE_id_0x7f090cdd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="保存" android:layout_weight="1.0" />
+        <Button android:id="@id/APKTOOL_DUPLICATE_id_0x7f090eea" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="查看当前参数" android:layout_weight="1.0" />
+        <Button android:id="@id/APKTOOL_DUPLICATE_id_0x7f090c6d" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="刷新通知栏" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

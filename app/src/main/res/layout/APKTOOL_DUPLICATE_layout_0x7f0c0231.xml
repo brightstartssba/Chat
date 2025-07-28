@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apkpure.aegon.widgets.CircleImageView android:layout_gravity="start" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09061d" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804ee" android:contentDescription="@null" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" />
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09061b" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.apkpure.aegon.widgets.CircleImageView android:layout_gravity="end" android:id="@id/APKTOOL_DUPLICATE_id_0x7f09061e" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0804ee" android:contentDescription="@null" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:layout_marginEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" />
+</FrameLayout>

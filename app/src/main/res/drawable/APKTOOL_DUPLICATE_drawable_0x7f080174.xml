@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080023"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="rect1_grp" android:animation="@anim/APKTOOL_DUPLICATE_anim_0x7f010032" />
+    <target android:name="rect2_grp" android:animation="@anim/APKTOOL_DUPLICATE_anim_0x7f010033" />
+</animated-vector>

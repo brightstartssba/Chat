@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apkpure.aegon.widgets.textview.ExpressionTextView android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090268" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f0908e9" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f090b1f" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+</LinearLayout>

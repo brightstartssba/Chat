@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkpure.aegon.widgets.layout.FingerFrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901e7" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.luck.picture.lib.photoview.PhotoView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0901ea" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09019e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800ba" android:scaleType="center" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0906d0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <TextView android:textSize="20.0sp" android:typeface="monospace" android:textStyle="bold" android:textColor="#66888888" android:layout_gravity="end|bottom|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090dce" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090237" android:layout_width="32.0dip" android:layout_height="32.0dip" style="?android:progressBarStyleSmall" />
+</com.apkpure.aegon.widgets.layout.FingerFrameLayout>

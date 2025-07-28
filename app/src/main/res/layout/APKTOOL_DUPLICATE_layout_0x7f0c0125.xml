@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUPLICATE_style_0x7f12000a" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040189="0.0dip">
+        <androidx.appcompat.widget.Toolbar android:id="@id/APKTOOL_DUPLICATE_id_0x7f0903e2" android:background="?APKTOOL_DUPLICATE_attr_0x7f04010a" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUPLICATE_attr_0x7f040005" app:APKTOOL_DUPLICATE_attr_0x7f0402a8="APKTOOL_DUPLICATE_id_0x7f09019c|APKTOOL_DUPLICATE_id_0x7f090362" app:APKTOOL_DUPLICATE_attr_0x7f040362="@style/APKTOOL_DUPLICATE_style_0x7f12000b" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.apkpure.aegon.widgets.MultiTypeRecyclerView android:id="@id/APKTOOL_DUPLICATE_id_0x7f090ab0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040268="@string/APKTOOL_DUPLICATE_string_0x7f1100f1" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090769" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040266="@id/APKTOOL_DUPLICATE_id_0x7f090ab0" app:APKTOOL_DUPLICATE_attr_0x7f040267="APKTOOL_DUPLICATE_id_0x7f09019a|APKTOOL_DUPLICATE_id_0x7f0900e1|APKTOOL_DUPLICATE_id_0x7f0900fb">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:scaleType="centerCrop" android:layout_marginEnd="8.0dip" app:APKTOOL_DUPLICATE_attr_0x7f0403ef="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08041e" />
+        <TextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUPLICATE_attr_0x7f040410" android:ellipsize="end" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110233" android:maxLines="1" android:textAlignment="viewStart" />
+    </LinearLayout>
+    <View android:background="?APKTOOL_DUPLICATE_attr_0x7f0404f1" android:layout_width="fill_parent" android:layout_height="1.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040266="@id/APKTOOL_DUPLICATE_id_0x7f090769" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

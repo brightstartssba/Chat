@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0003">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+</resources>

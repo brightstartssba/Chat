@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingRight="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:paddingEnd="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090ece" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.apkpure.aegon.widgets.textview.RoundLinearLayout android:padding="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUPLICATE_attr_0x7f040396="?APKTOOL_DUPLICATE_attr_0x7f0404f1" app:APKTOOL_DUPLICATE_attr_0x7f04039d="true">
+            <androidx.appcompat.widget.AppCompatEditText android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905dd" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUPLICATE_string_0x7f110649" android:maxLines="1" android:singleLine="true" />
+        </com.apkpure.aegon.widgets.textview.RoundLinearLayout>
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905de" android:background="@null" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f0800ba" android:scaleType="fitCenter" android:layout_marginStart="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070060" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06033f" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0905df" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11064c" android:maxLines="1" android:singleLine="true" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f090ece" />
+</RelativeLayout>

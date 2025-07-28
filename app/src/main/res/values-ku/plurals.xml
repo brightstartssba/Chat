@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="arg">
+        <item quantity="other">هی تر %1$d بابەت دادەگیڕێت</item>
+        <item quantity="one">یەک %1$d بابەت دادەگیڕێت</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0001">
+        <item quantity="other">"هی تر
+%1$d نوێکردنەوەی نوێ بەردەستە"</item>
+        <item quantity="one">"یەک
+%1$d نوێکردنەوەی نوێ بەردەستە"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0002">
+        <item quantity="other">هیتر بینینی هەموو %1$d وەڵامدانەوەکان</item>
+        <item quantity="one">یەک بینینی هەموو %1$d وەڵامدانەوە</item>
+    </plurals>
+    <plurals name="APKTOOL_DUPLICATE_plurals_0x7f0f0004">
+        <item quantity="other">" هیتر تێکڕا: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> نەرمەواڵەکان، &lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+        <item quantity="one">" یەک تێکڕا: &lt;b>&lt;font color=%1$d>%2$d&lt;/font>&lt;/b> نەرمەواڵە،&lt;b>&lt;font color=%1$d>%3$s&lt;/font>&lt;/b> "</item>
+    </plurals>
+</resources>

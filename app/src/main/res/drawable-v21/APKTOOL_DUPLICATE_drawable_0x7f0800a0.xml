@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="0.5dip" android:color="?APKTOOL_DUPLICATE_attr_0x7f0403ae" />
+            <corners android:radius="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070078" />
+        </shape>
+    </item>
+</selector>

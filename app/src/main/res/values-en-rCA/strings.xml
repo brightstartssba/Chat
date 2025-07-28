@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110006">Navigate home</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110007">Navigate up</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110008">More options</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110009">Done</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11000a">See all</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11000b">Choose an app</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11000c">OFF</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11000d">ON</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11000e">Alt+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11000f">Ctrl+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110010">delete</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110011">enter</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110012">Function+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110013">Meta+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110014">Shift+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110015">space</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110016">Sym+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110017">Menu+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110018">Search…</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110019">Clear query</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11001a">Search query</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11001b">Search</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11001c">Submit query</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11001d">Voice search</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11001e">Share with</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11001f">Share with %s</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110020">Collapse</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f110569">Search</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f11059c">999+</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106c3">Answer</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106c4">Video</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106c5">Decline</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106c6">Hang Up</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106c7">Incoming call</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106c8">Ongoing call</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106c9">Screening an incoming call</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106e4">Link copied to clipboard</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106f1">Copy link</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106f2">Open in browser</string>
+    <string name="APKTOOL_DUPLICATE_string_0x7f1106f3">Share link</string>
+</resources>

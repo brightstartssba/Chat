@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090277" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070278" style="?APKTOOL_DUPLICATE_attr_0x7f0402e1" />
+    <include layout="@layout/APKTOOL_DUPLICATE_layout_0x7f0c00c0" />
+</LinearLayout>

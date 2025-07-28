@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:drawable="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080514" />
+    <item>
+        <selector>
+            <item android:state_activated="true">
+                <color android:color="@color/APKTOOL_DUPLICATE_color_0x7f0603ac" />
+            </item>
+        </selector>
+    </item>
+</ripple>

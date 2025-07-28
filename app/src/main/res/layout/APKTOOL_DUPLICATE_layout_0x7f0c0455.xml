@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f07007e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d70" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f09086e" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080253" android:layout_width="fill_parent" android:layout_height="35.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040290="APKTOOL_DUPLICATE_id_0x7f0902d7" />
+        <View android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f09086e" app:APKTOOL_DUPLICATE_attr_0x7f040272="APKTOOL_DUPLICATE_id_0x7f0902d7" app:APKTOOL_DUPLICATE_attr_0x7f04028f="@id/APKTOOL_DUPLICATE_id_0x7f09086e" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090d6f" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f080648" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="16.0dip" app:APKTOOL_DUPLICATE_attr_0x7f040290="APKTOOL_DUPLICATE_id_0x7f0902d7">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060350" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11059a" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060350" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11059b" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070054" android:layout_marginRight="17.0dip" android:layout_marginBottom="14.0dip" app:APKTOOL_DUPLICATE_attr_0x7f04028f="@id/APKTOOL_DUPLICATE_id_0x7f090d6f">
+            <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f09072d" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08037d" />
+            <TextView android:textSize="10.0dip" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f060038" android:id="@id/APKTOOL_DUPLICATE_id_0x7f090486" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070089" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110046" android:layout_toRightOf="@id/APKTOOL_DUPLICATE_id_0x7f09072d" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
